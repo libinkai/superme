@@ -36,7 +36,7 @@
       <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/algorithm/sort/insertion/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="329">
               <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -302,16 +302,15 @@
       <workItem from="1574647583799" duration="172000" />
       <workItem from="1574765673548" duration="4860000" />
       <workItem from="1574771137967" duration="5185000" />
-      <workItem from="1574780108931" duration="4752000" />
+      <workItem from="1574780108931" duration="4811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21407000" />
+    <option name="totallyTimeSpent" value="21466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -322,9 +321,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4261242" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32976446" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32976446" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4261242" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32976446" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.049250536" weight="0.21801706" />
@@ -631,7 +630,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/algorithm/sort/insertion/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="329">
           <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
