@@ -20,7 +20,7 @@ public class QuickSortBetter implements Sortable {
         while (low < high) {
             pivot = partition(array, low, high);
             sort(array, low, pivot - 1);
-            // 尾递归
+            // 并不是尾递归，只是和其思想有点类似，参见 https://segmentfault.com/a/1190000018153141
             low = pivot + 1;
         }
     }
