@@ -15,15 +15,15 @@ import com.equator.algorithm.sort.quick.QuickSort;
 public class InsertionSort implements Sortable {
     @Override
     public void sort(int[] array) {
-        int len = array.length, i, j;
+        int len = array.length, i, j, temp;
         for (i = 1; i < len; i++) {
             if (array[i] < array[i - 1]) {
-                // 设置哨兵
-                array[0] = array[i];
-                for (j = i - 1; array[j] > array[0]; j--) {
+                temp = array[i];
+                // j >= 0 && array[j] > temp 不能变换顺序，否则数组越界
+                for (j = i - 1; j >= 0 && array[j] > temp; j--) {
                     array[j + 1] = array[j];
                 }
-                array[j + 1] = array[0];
+                array[j + 1] = temp;
             }
         }
     }
