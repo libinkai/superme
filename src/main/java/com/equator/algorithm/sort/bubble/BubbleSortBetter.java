@@ -28,11 +28,6 @@ public class BubbleSortBetter implements Sortable {
     }
 
     public static void main(String[] args) {
-        int[] array = SortUtil.generateArray(100000, 1000);
-        SortUtil.print("排序前", array);
-        Sortable bubbleSortBetter = new BubbleSortBetter();
-        long time = SortUtil.monitor(bubbleSortBetter, array);
-        SortUtil.print("排序后", array);
-        System.out.println("耗时：" + time);
+        SortUtil.sort(new BubbleSortBetter());
     }
 }

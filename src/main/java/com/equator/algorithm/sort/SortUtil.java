@@ -1,5 +1,7 @@
 package com.equator.algorithm.sort;
 
+import com.equator.algorithm.sort.shell.ShellSort;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -53,6 +55,7 @@ public class SortUtil {
 
     /**
      * 计算排序的耗时
+     *
      * @param sortable
      * @param array
      * @return
@@ -64,7 +67,15 @@ public class SortUtil {
         return end - start;
     }
 
-    public static void main(String[] args) {
-        print(generateArray(100, 1000));
+    /**
+     * 排序并计算时间
+     * @param sortable
+     */
+    public static void sort(Sortable sortable) {
+        int[] array = SortUtil.generateArray(100000, 10000);
+        SortUtil.print("排序前", array);
+        long time = SortUtil.monitor(sortable, array);
+        SortUtil.print("排序后", array);
+        System.out.println("耗时：" + time);
     }
 }

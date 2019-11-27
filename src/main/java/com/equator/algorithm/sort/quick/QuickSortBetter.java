@@ -2,6 +2,7 @@ package com.equator.algorithm.sort.quick;
 
 import com.equator.algorithm.sort.SortUtil;
 import com.equator.algorithm.sort.Sortable;
+import com.equator.algorithm.sort.insertion.InsertionSort;
 
 /**
  * @Author: Equator
@@ -45,11 +46,6 @@ public class QuickSortBetter implements Sortable {
     }
 
     public static void main(String[] args) {
-        int[] array = SortUtil.generateArray(100000, 1000);
-        SortUtil.print("排序前", array);
-        Sortable quickSort = new QuickSortBetter();
-        long time = SortUtil.monitor(quickSort, array);
-        SortUtil.print("排序后", array);
-        System.out.println("耗时：" + time);
+        SortUtil.sort(new QuickSortBetter());
     }
 }
