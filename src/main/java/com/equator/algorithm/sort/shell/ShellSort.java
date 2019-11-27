@@ -15,11 +15,13 @@ public class ShellSort implements Sortable {
     public void sort(int[] array) {
         int increment = array.length, len = array.length, i, j, temp;
         do {
+            // 计算增量，增量最后必须为1，进行全盘扫描
             increment = increment / 3 + 1;
-            for (i = increment + 1; i < len; i++) {
+            for (i = increment; i < len; i++) {
                 if (array[i] < array[i - increment]) {
                     temp = array[i];
                     for (j = i - increment; j >= 0 && array[j] > temp; j -= increment) {
+                        // 数据后移
                         array[j + increment] = array[j];
                     }
                     array[j + increment] = temp;
@@ -29,6 +31,11 @@ public class ShellSort implements Sortable {
     }
 
     public static void main(String[] args) {
-        SortUtil.sort(new ShellSort());
+        // SortUtil.sort(new ShellSort());
+        int[] array = {5, 3, 4, 6, 2};
+        SortUtil.print("排序前", array);
+        long time = SortUtil.monitor(new ShellSort(), array);
+        SortUtil.print("排序后", array);
+        System.out.println("耗时：" + time);
     }
 }
