@@ -56,6 +56,7 @@ public class HeapSort implements Sortable {
         // 如果index节点不是其与其左右孩子三者中的最大值，则交换
         if (maxIndex != index) {
             SortUtil.swap(array, maxIndex, index);
+            // 调整之后其它的大顶堆属性可能被破坏，需要继续调整
             heapify(array, len, maxIndex);
         }
     }
