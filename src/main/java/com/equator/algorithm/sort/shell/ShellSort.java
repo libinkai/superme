@@ -10,6 +10,9 @@ import com.equator.algorithm.sort.quick.QuickSortBetter;
  * @Date: 2019/11/27 9:59
  **/
 
+/**
+ *  希尔排序，将数组按照 增量 （步长）划分为子序列，再对子序列进行直接插入排序
+ */
 public class ShellSort implements Sortable {
     @Override
     public void sort(int[] array) {
