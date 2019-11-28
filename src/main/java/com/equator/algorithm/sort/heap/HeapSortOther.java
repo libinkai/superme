@@ -15,7 +15,7 @@ import com.equator.algorithm.sort.Sortable;
  * 左孩子为 2i+1
  * 右孩子为 2i+2
  */
-public class HeapSort implements Sortable {
+public class HeapSortOther implements Sortable {
     @Override
     public void sort(int[] array) {
         int len = array.length;
@@ -33,36 +33,32 @@ public class HeapSort implements Sortable {
     }
 
     /**
-     * 堆化，调整数组使其保持大顶堆的属性，使 [index,len] 保持大顶堆属性
+     * 非递归的方式调整大顶堆
      *
      * @param array
-     * @param len   堆的节点个数
-     * @param index 要调整的节点的下标
+     * @param len
+     * @param index
      */
     public void heapify(int[] array, int len, int index) {
-        if (index >= len) {
-            return;
+        int temp = array[index];
+        // 2*index+1 表示其为左孩子
+        for (int i = 2 * index + 1; i < len; i = 2 * i + 1) {
+            // 左孩子小于右孩子，则 i 指向右孩子
+            if (i < len - 1 && array[i] < array[i + 1]) {
+                i++;
+            }
+            // 父节点大于左孩子与右孩子（此时i指向最大的节点），则无需调整
+            if (temp >= array[i]) {
+                break;
+            }
+            // 将最大的节点调整到index处
+            array[index] = array[i];
+            index = i;
         }
-        // 计算左右孩子的下标
-        int childrenLeftIndex = 2 * index + 1;
-        int childrenRightIndex = 2 * index + 2;
-        // 找出index节点以及其左右孩子三者中的最大值
-        int maxIndex = index;
-        if (childrenLeftIndex < len && array[childrenLeftIndex] > array[maxIndex]) {
-            maxIndex = childrenLeftIndex;
-        }
-        if (childrenRightIndex < len && array[childrenRightIndex] > array[maxIndex]) {
-            maxIndex = childrenRightIndex;
-        }
-        // 如果index节点不是其与其左右孩子三者中的最大值，则交换
-        if (maxIndex != index) {
-            SortUtil.swap(array, maxIndex, index);
-            // 调整之后其它的大顶堆属性可能被破坏，需要继续调整
-            heapify(array, len, maxIndex);
-        }
+        array[index] = temp;
     }
 
     public static void main(String[] args) {
-        SortUtil.sort(new HeapSort());
+        SortUtil.sort(new HeapSortOther());
     }
 }
