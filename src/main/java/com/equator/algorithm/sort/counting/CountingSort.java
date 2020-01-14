@@ -1,7 +1,6 @@
 package com.equator.algorithm.sort.counting;
 
 import com.equator.algorithm.sort.SortUtil;
-import com.equator.algorithm.sort.Sortable;
 
 /**
  * @Author: Equator
@@ -36,7 +35,7 @@ public class CountingSort {
         // 倒序遍历原始数列，从统计数组找到正确位置，得到结果数组
         int[] resultArray = new int[len];
         for (int i = len - 1; i >= 0; i--) {
-            // countArray[array[i] - min] 统计数组中该值的预期位置
+            // countArray[array[i] - min] 结果数组中该值的预期位置
             resultArray[countArray[array[i] - min] - 1] = array[i];
             countArray[array[i] - min]--;
         }
@@ -44,7 +43,7 @@ public class CountingSort {
     }
 
     public static void main(String[] args) {
-        int[] array = SortUtil.generateArray(100000, 10000);
+        int[] array = SortUtil.generateIntegerArray(100000, 10000);
         SortUtil.print("排序前", array);
         long start = System.currentTimeMillis();
         array = sort(array);
