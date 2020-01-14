@@ -1,9 +1,6 @@
 package com.leetcode;
 
-import com.sun.deploy.util.ArrayUtil;
-
 import java.util.Arrays;
-import java.util.Collections;
 
 /**
  * leetcode#283#移动零
@@ -12,7 +9,7 @@ import java.util.Collections;
  * @Date: 2020/1/14 8:18
  **/
 
-public class MoveZeroes {
+public class Problem283 {
     public void moveZeroes0(int[] nums) {
         int zerosCounter = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -42,7 +39,7 @@ public class MoveZeroes {
 
     public static void main(String[] args) {
         int[] nums = {0, 1, 0, 3, 12};
-        new MoveZeroes().moveZeroes1(nums);
+        new Problem283().moveZeroes1(nums);
         System.out.println(Arrays.toString(nums));
     }
 }

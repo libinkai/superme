@@ -7,7 +7,7 @@ package com.leetcode;
  * @Date: 2020/1/14 8:34
  **/
 
-public class TwoSum {
+public class Problem1 {
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
         for (int i = 0; i < nums.length; i++) {

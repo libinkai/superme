@@ -7,7 +7,7 @@ package com.leetcode;
  * @Date: 2020/1/13 18:09
  **/
 
-public class IsUgly {
+public class Problem263 {
     public boolean isUgly(int num) {
         if (num <= 0) {
             return false;
@@ -27,6 +27,6 @@ public class IsUgly {
     }
 
     public static void main(String[] args) {
-        System.out.println(new IsUgly().isUgly(8));
+        System.out.println(new Problem263().isUgly(8));
     }
 }
