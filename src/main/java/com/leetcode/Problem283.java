@@ -3,8 +3,6 @@ package com.leetcode;
 import java.util.Arrays;
 
 /**
- * leetcode#283#移动零
- *
  * @Author: Equator
  * @Date: 2020/1/14 8:18
  **/

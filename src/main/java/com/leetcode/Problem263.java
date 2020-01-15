@@ -1,8 +1,6 @@
 package com.leetcode;
 
 /**
- * leetcode#263#丑数
- *
  * @Author: Equator
  * @Date: 2020/1/13 18:09
  **/
