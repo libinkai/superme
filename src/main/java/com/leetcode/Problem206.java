@@ -66,6 +66,29 @@ public class Problem206 {
         return head;
     }
 
+    // double pointer 双指针
+    public ListNode reverseList2(ListNode head) {
+        ListNode pre = null, cur = head, temp;
+        while (cur != null) {
+            temp = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = temp;
+        }
+        return pre;
+    }
+
+    // 递归 recursion
+    public ListNode reverseList(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode cur = reverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return cur;
+    }
+
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
         ListNode node1 = new ListNode(2);
@@ -78,7 +101,7 @@ public class Problem206 {
         node3.next = node4;
         node4.next = null;
         //ListNode head = null;
-        head = new Problem206().reverseList0(head);
+        head = new Problem206().reverseList(head);
         ListNode tempNode = head;
         while (tempNode != null) {
             System.out.print(tempNode.val + "->");
