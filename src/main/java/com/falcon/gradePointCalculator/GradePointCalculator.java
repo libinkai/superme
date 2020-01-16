@@ -31,7 +31,7 @@ public class GradePointCalculator {
         float sumGradePoint = 0, sumCredits = 0;
         for (Grade grade : gradeList) {
             System.out.println(grade.toString());
-            sumGradePoint += grade.getGradePoint();
+            sumGradePoint += grade.getGradePoint() * grade.getCredits();
             sumCredits += grade.getCredits();
         }
         float avg = sumGradePoint / sumCredits;
