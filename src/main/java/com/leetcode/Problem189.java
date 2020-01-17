@@ -40,7 +40,7 @@ public class Problem189 {
         }
     }
 
-    // 环状替换
+    // 环状替换 看不懂，先放放
     public void rotate3(int[] nums, int k) {
 
     }
