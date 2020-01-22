@@ -9,8 +9,8 @@ import java.util.Map;
  **/
 
 public class Problem70 {
-    // 递归
-    public int climbStairs(int n) {
+    //hash map缓存 递归
+    public int climbStairs0(int n) {
         Map<Integer, Integer> cache = new HashMap<>();
         return travel(n, cache);
     }
@@ -20,13 +20,36 @@ public class Problem70 {
             cache.put(n, n);
             return n;
         }
-        int res = (cache.get(n - 1) == null ? climbStairs(n - 1) : cache.get(n - 1)) + (cache.get(n - 2) == null ? climbStairs(n - 2) : cache.get(n - 2));
+        int res = (cache.get(n - 1) == null ? travel(n - 1, cache) : cache.get(n - 1)) + (cache.get(n - 2) == null ? travel(n - 2, cache) : cache.get(n - 2));
         cache.put(n, res);
         return res;
     }
 
-    //迭代
     public int climbStairs1(int n) {
+        Map<Integer, Integer> cache = new HashMap<>();
+        return travel(0, n, cache);
+    }
+
+    public int travel(int cur, int max, Map<Integer, Integer> cache) {
+        if (cur > max) {
+            cache.put(cur, 0);
+            return 0;
+        }
+        if (cur == max) {
+            cache.put(cur, 1);
+            return 1;
+        }
+        if (cache.containsKey(cur)) {
+            return cache.get(cur);
+        }
+        int res = travel(cur + 1, max, cache) + travel(cur + 2, max, cache);
+        cache.put(cur, res);
+        return res;
+    }
+
+
+    //迭代
+    public int climbStairs2(int n) {
         if (n < 3) {
             return n;
         }
@@ -41,6 +64,6 @@ public class Problem70 {
 
 
     public static void main(String[] args) {
-        System.out.println(new Problem70().climbStairs(3));
+        System.out.println(new Problem70().climbStairs2(3));
     }
 }
