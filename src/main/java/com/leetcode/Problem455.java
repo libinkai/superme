@@ -12,7 +12,7 @@ public class Problem455 {
 
 
     // 贪心算法
-    public int findContentChildren(int[] g, int[] s) {
+    public int findContentChildren0(int[] g, int[] s) {
         if (g.length == 0 || s.length == 0) {
             return 0;
         }
@@ -30,6 +30,21 @@ public class Problem455 {
             } else {
                 sidx++;
                 if (sidx >= s.length) {
+                    return ans;
+                }
+            }
+        }
+        return ans;
+    }
+
+    public int findContentChildren(int[] g, int[] s) {
+        int ans = 0;
+        Arrays.sort(g);
+        Arrays.sort(s);
+        for (int i = 0; i < s.length; i++) {
+            if (s[i] >= g[ans]) {
+                ans++;
+                if (ans >= g.length) {
                     return ans;
                 }
             }
