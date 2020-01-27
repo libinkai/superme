@@ -22,7 +22,7 @@ public class Problem121 {
         return maxProfit;
     }
 
-    public int maxProfit(int[] prices) {
+    public int maxProfit1(int[] prices) {
         int maxProfit = 0, minPrice = Integer.MAX_VALUE;
         for (int i = 0; i < prices.length; i++) {
             if (prices[i] < minPrice) {

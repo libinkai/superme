@@ -48,7 +48,7 @@ public class Problem70 {
     }
 
 
-    //迭代
+    // 迭代
     public int climbStairs2(int n) {
         if (n < 3) {
             return n;
@@ -62,6 +62,19 @@ public class Problem70 {
         return f3;
     }
 
+    // 动态规划 递推方程 f(n) = f(n-1) + f(n-2)
+    public int climbStairs3(int n) {
+        if (n <= 2) {
+            return n;
+        }
+        int[] opt = new int[n];
+        opt[0] = 1;
+        opt[1] = 2;
+        for (int i = 2; i < n; i++) {
+            opt[i] = opt[i - 1] + opt[i - 2];
+        }
+        return opt[n - 1];
+    }
 
     public static void main(String[] args) {
         System.out.println(new Problem70().climbStairs2(3));
