@@ -21,20 +21,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Problem303.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem303.java">
+      <file leaf-file-name="Problem208.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem208.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem392.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem392.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="281">
+              <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+              <folding>
+                <element signature="class#TrieNode#0;class#Trie#0;class#Problem208#0" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem641.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem42.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem242.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem49.java" />
@@ -118,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem746.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem1025.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem392.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem208.java" />
       </list>
     </option>
   </component>
@@ -405,15 +413,16 @@
       <workItem from="1580032137992" duration="2460000" />
       <workItem from="1580046578862" duration="1782000" />
       <workItem from="1580081833257" duration="15217000" />
-      <workItem from="1580176465024" duration="12286000" />
+      <workItem from="1580176465024" duration="15383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310635000" />
+    <option name="totallyTimeSpent" value="313732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -427,7 +436,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32976446" />
       <window_info id="leetcode" order="7" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.21448468" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29387188" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.29387188" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.093877554" weight="0.23123324" />
@@ -452,7 +461,7 @@
       <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.21448468" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.21448468" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
       <window_info id="UI Designer" order="4" />
@@ -469,7 +478,7 @@
       <window_info id="leetcode" order="7" side_tool="true" weight="0.3297587" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.33297297" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.093877554" visible="true" weight="0.23123324" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.093877554" visible="true" weight="0.23123324" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3259053" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -531,13 +540,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem42.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem242.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -871,13 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem303.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem746.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
@@ -898,8 +893,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem392.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="-415">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem303.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem208.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding>
+            <element signature="class#TrieNode#0;class#Trie#0;class#Problem208#0" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
