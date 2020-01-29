@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.equator;
 
 import java.util.HashSet;
 import java.util.LinkedList;
