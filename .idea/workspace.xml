@@ -21,32 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Problem300.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem300.java">
+      <file leaf-file-name="Problem361.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem361.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem674.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem674.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem64.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem64.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="76" column="63" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
+            <state relative-caret-position="216">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
               <folding>
-                <element signature="method#minPathSum0#0;class#Problem64#0" />
-                <element signature="method#minPathSum1#0;class#Problem64#0" />
+                <element signature="method#maxKilledEnemies#0;class#Problem361#0" />
               </folding>
             </state>
           </provider>
@@ -84,8 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem322.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem860.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem122.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem455.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem55.java" />
@@ -135,6 +114,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem300.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem674.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem64.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem338.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem361.java" />
       </list>
     </option>
   </component>
@@ -452,7 +433,7 @@
       <workItem from="1580652360322" duration="3764000" />
       <workItem from="1580700409656" duration="2357000" />
       <workItem from="1580725693170" duration="1922000" />
-      <workItem from="1580772701687" duration="10011000" />
+      <workItem from="1580772701687" duration="14806000" />
     </task>
     <servers />
   </component>
@@ -477,7 +458,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395722000" />
+    <option name="totallyTimeSpent" value="400517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -525,7 +506,7 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="6" sideWeight="0.92719483" side_tool="true" weight="0.15281501" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.29387188" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29387188" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -599,20 +580,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem455.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem55.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem874.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -943,10 +910,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem300.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem338.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="216">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding>
+            <element signature="method#minPathSum0#0;class#Problem64#0" />
+            <element signature="method#minPathSum1#0;class#Problem64#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -957,13 +935,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem64.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem300.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="76" column="63" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
+        <state relative-caret-position="161">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem361.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
           <folding>
-            <element signature="method#minPathSum0#0;class#Problem64#0" />
-            <element signature="method#minPathSum1#0;class#Problem64#0" />
+            <element signature="method#maxKilledEnemies#0;class#Problem361#0" />
           </folding>
         </state>
       </provider>
