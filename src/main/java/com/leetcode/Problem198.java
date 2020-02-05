@@ -49,6 +49,24 @@ public class Problem198 {
         return Math.max(opt[nums.length - 1][0], opt[nums.length - 1][1]);
     }
 
+    // 一维 DP 滚动数组
+    public int rob2(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        // 定义opt[i]为盗贼在前i栋房子最多偷多少枚金币
+        // opt[i] = max {opt[i-1],opt[i-2]+nums[i-1]}
+        int old = 0; // opt[0]
+        int now = nums[0]; // opt[1]
+        for (int i = 2; i <= nums.length; i++) {
+            // old = opt[i-2] now = opt[i-1]
+            int t = Math.max(now, old + nums[i - 1]);
+            old = now;
+            now = t;
+        }
+        return now;
+    }
+
     public static void main(String[] args) {
         int[] nums = {1, 2, 6, 2, 5, 87};
         System.out.println(new Problem198().rob0(nums));

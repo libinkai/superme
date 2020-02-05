@@ -6,6 +6,7 @@ package com.leetcode;
  **/
 
 public class Problem122 {
+    // 贪心
     public int maxProfit0(int[] prices) {
         int maxProfit = 0, temp;
         for (int i = 0; i < prices.length - 1; i++) {

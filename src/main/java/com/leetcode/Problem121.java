@@ -22,6 +22,7 @@ public class Problem121 {
         return maxProfit;
     }
 
+    // 动态规划 贪心
     public int maxProfit1(int[] prices) {
         int maxProfit = 0, minPrice = Integer.MAX_VALUE;
         for (int i = 0; i < prices.length; i++) {
