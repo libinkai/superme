@@ -21,20 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Problem279.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem279.java">
+      <file leaf-file-name="Problem516.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem516.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem132.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem132.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="411">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -71,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/algorithm/searching/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem509.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem53.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem70.java" />
@@ -122,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem354.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem279.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem132.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem516.java" />
       </list>
     </option>
   </component>
@@ -146,11 +137,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1060" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -158,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,7 +195,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
@@ -428,7 +418,8 @@
       <workItem from="1580700409656" duration="2357000" />
       <workItem from="1580725693170" duration="1922000" />
       <workItem from="1580772701687" duration="15536000" />
-      <workItem from="1580857019357" duration="24525000" />
+      <workItem from="1580857019357" duration="25273000" />
+      <workItem from="1580942498519" duration="2170000" />
     </task>
     <servers />
   </component>
@@ -453,15 +444,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="425772000" />
+    <option name="totallyTimeSpent" value="428690000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="762" y="0" width="781" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3259053" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -474,7 +464,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.29387188" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.093877554" weight="0.5359116" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.093877554" weight="0.53552276" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.32729805" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="5" sideWeight="0.90612245" side_tool="true" weight="0.21447721" />
@@ -483,6 +473,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.92719483" side_tool="true" weight="0.15281501" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37743732" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3259053" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -497,23 +488,23 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.2103064" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="leetcode" order="7" side_tool="true" weight="0.3297587" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="6" sideWeight="0.92719483" side_tool="true" weight="0.15281501" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.29387188" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29387188" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" weight="0.3189415" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.32729805" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32976446" />
-      <window_info id="leetcode" order="7" side_tool="true" weight="0.3297587" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.33297297" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.093877554" visible="true" weight="0.5359116" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.093877554" visible="true" weight="0.53552276" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3259053" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -586,13 +577,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem1025.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem392.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-415">
@@ -852,9 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="method#maxKilledEnemies#0;class#Problem361#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -897,9 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="34" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="method#maxProfit#0;class#Problem123#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -907,9 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="method#maxProfit#0;class#Problem188#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,23 +906,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem279.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="120">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem132.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="262">
+          <caret line="52" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem516.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>
