@@ -1,4 +1,4 @@
-package com.falcon.gradePointCalculator;
+package com.other.gradePointCalculator;
 
 import java.util.LinkedList;
 import java.util.List;

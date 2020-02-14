@@ -1,4 +1,4 @@
-package com.falcon.image;
+package com.other.image;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

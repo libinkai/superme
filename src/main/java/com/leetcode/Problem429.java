@@ -1,4 +1,6 @@
-package com.equator.datastruct.tree;
+package com.leetcode;
+
+import com.equator.datastruct.tree.Node;
 
 import java.util.LinkedList;
 import java.util.List;

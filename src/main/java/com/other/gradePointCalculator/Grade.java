@@ -1,4 +1,4 @@
-package com.falcon.gradePointCalculator;
+package com.other.gradePointCalculator;
 
 /**
  * @Author: Equator
