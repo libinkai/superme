@@ -6,7 +6,26 @@ package com.nowcoder.sword;
  **/
 
 public class Problem4 {
+    // 剪枝，每次看右上角或者左下角的数字即可
     public boolean Find(int target, int[][] array) {
+        if (array == null || array.length == 0 || array[0] == null || array[0].length == 0) {
+            return false;
+        }
+        int rows = array.length, cols = array[0].length;
+        int row = 0, col = cols - 1;
+        while (row < rows && col >= 0) {
+            if (array[row][col] == target) {
+                return true;
+            } else if (array[row][col] > target) {
+                col--;
+            } else {
+                row++;
+            }
+        }
+        return false;
+    }
+
+    public boolean Find0(int target, int[][] array) {
         if (array == null || array.length == 0 || array[0] == null || array[0].length == 0) {
             return false;
         }
