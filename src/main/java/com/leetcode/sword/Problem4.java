@@ -1,4 +1,4 @@
-package com.nowcoder.sword;
+package com.leetcode.sword;
 
 /**
  * @Author: Equator
@@ -7,16 +7,16 @@ package com.nowcoder.sword;
 
 public class Problem4 {
     // 剪枝，每次看右上角或者左下角的数字即可
-    public boolean Find(int target, int[][] array) {
-        if (array == null || array.length == 0 || array[0] == null || array[0].length == 0) {
+    public boolean findNumberIn2DArray(int[][] matrix, int target) {
+        if (matrix == null || matrix.length == 0 || matrix[0] == null || matrix[0].length == 0) {
             return false;
         }
-        int rows = array.length, cols = array[0].length;
+        int rows = matrix.length, cols = matrix[0].length;
         int row = 0, col = cols - 1;
         while (row < rows && col >= 0) {
-            if (array[row][col] == target) {
+            if (matrix[row][col] == target) {
                 return true;
-            } else if (array[row][col] > target) {
+            } else if (matrix[row][col] > target) {
                 col--;
             } else {
                 row++;
@@ -24,6 +24,7 @@ public class Problem4 {
         }
         return false;
     }
+
 
     public boolean Find0(int target, int[][] array) {
         if (array == null || array.length == 0 || array[0] == null || array[0].length == 0) {
@@ -44,10 +45,5 @@ public class Problem4 {
             }
         }
         return false;
-    }
-
-    public static void main(String[] args) {
-        int[][] arr = {{1, 2, 3}};
-        System.out.println(new Problem4().Find(2, arr));
     }
 }

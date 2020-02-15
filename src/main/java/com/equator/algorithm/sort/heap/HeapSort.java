@@ -20,7 +20,7 @@ public class HeapSort implements Sortable {
     public void sort(int[] array) {
         int len = array.length;
         int lastNodeIndex = len - 1;
-        // 从最后一个有孩子的节点（即最后一个叶子节点的父节点）开始建立大顶堆
+        // 从最后一个有孩子的节点（即最后一个叶子节点的父节点）开始建立大顶堆，最后一个非叶子结点
         for (int i = (lastNodeIndex - 1) / 2; i >= 0; i--) {
             heapify(array, len, i);
         }

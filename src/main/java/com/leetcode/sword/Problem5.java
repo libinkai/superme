@@ -1,4 +1,4 @@
-package com.nowcoder.sword;
+package com.leetcode.sword;
 
 /**
  * @Author: Equator
@@ -6,13 +6,12 @@ package com.nowcoder.sword;
  **/
 
 public class Problem5 {
-    public String replaceSpace(StringBuffer str) {
-        String string = str.toString();
-        if (string == null || "".equals(string)) {
+    public String replaceSpace(String s) {
+        if (s == null || "".equals(s)) {
             return "";
         }
         int numberOfBlank = 0;
-        char[] oldChars = string.toCharArray();
+        char[] oldChars = s.toCharArray();
         for (char oldChar : oldChars) {
             if (' ' == oldChar) {
                 numberOfBlank++;
@@ -31,10 +30,5 @@ public class Problem5 {
             oldIndex--;
         }
         return new String(newChars);
-    }
-
-    public static void main(String[] args) {
-        String str = "  I am you ";
-        System.out.println(new Problem5().replaceSpace(new StringBuffer(str)));
     }
 }

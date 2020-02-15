@@ -1,4 +1,4 @@
-package com.nowcoder.sword;
+package com.leetcode.sword;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -12,17 +12,16 @@ import java.util.Set;
 
 public class Problem3 {
     // hash time O(n), space O(n)
-    public boolean duplicate0(int numbers[], int length, int[] duplication) {
+    public int findRepeatNumber(int[] nums) {
         Set<Integer> set = new HashSet<>();
-        for (int i = 0; i < length; i++) {
-            if (set.contains(numbers[i])) {
-                duplication[0] = numbers[i];
-                return true;
+        for (int i = 0; i < nums.length; i++) {
+            if (set.contains(nums[i])) {
+                return nums[i];
             } else {
-                set.add(numbers[i]);
+                set.add(nums[i]);
             }
         }
-        return false;
+        return -1;
     }
 
     public boolean duplicate(int numbers[], int length, int[] duplication) {
