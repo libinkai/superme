@@ -24,11 +24,14 @@
       <file leaf-file-name="Problem9.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/sword/Problem9.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="593">
+              <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#342#343#0" expanded="true" />
                 <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -261,18 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem7">
-    <configuration name="Problem123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.Problem123" />
-      <module name="offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Problem9">
     <configuration name="Problem4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nowcoder.sword.Problem4" />
       <module name="offer" />
@@ -302,6 +294,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.nowcoder.sword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Problem9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.sword.Problem9" />
+      <module name="offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.sword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,19 +362,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Problem123" />
       <item itemvalue="Application.ThreadPoolTest" />
       <item itemvalue="Application.Problem4" />
       <item itemvalue="Application.Problem5" />
       <item itemvalue="Application.Problem7" />
+      <item itemvalue="Application.Problem9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem9" />
         <item itemvalue="Application.Problem7" />
         <item itemvalue="Application.Problem5" />
         <item itemvalue="Application.Problem4" />
         <item itemvalue="Application.ThreadPoolTest" />
-        <item itemvalue="Application.Problem123" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +447,7 @@
       <workItem from="1581050254651" duration="5247000" />
       <workItem from="1581597282353" duration="5755000" />
       <workItem from="1581638868693" duration="8074000" />
-      <workItem from="1581723487599" duration="16561000" />
+      <workItem from="1581723487599" duration="18798000" />
     </task>
     <servers />
   </component>
@@ -469,7 +472,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="470387000" />
+    <option name="totallyTimeSpent" value="472624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -922,11 +925,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/sword/Problem9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="593">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
             <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -948,7 +954,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1007,7 +1013,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
