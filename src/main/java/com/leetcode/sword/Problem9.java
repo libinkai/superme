@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.Stack;
 
 /**
+ * add，remove，element，旧的方法，会抛出异常
+ * offer，poll，peek，新的方法，返回默认值
+ *
  * @Author: Equator
  * @Date: 2020/2/15 15:17
  **/
