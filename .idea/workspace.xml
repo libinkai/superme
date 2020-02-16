@@ -21,20 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Problem12.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem12.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/sword/Problem12.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+            <state relative-caret-position="192">
+              <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem79.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem79.java">
+      <file leaf-file-name="Problem13.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/sword/Problem13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="40" column="46" lean-forward="true" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+            <state relative-caret-position="545">
+              <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+              <folding>
+                <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1204#1205#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem146.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem461.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem5.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem673.java" />
@@ -127,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem153.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Problem154.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/sword/Problem12.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/sword/Problem13.java" />
       </list>
     </option>
   </component>
@@ -267,7 +271,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem153">
+  <component name="RunManager" selected="Application.Problem13">
+    <configuration name="Problem13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.sword.Problem13" />
+      <module name="offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.sword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Problem153" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.Problem153" />
       <module name="offer" />
@@ -275,17 +290,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Problem4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.sword.Problem4" />
-      <module name="offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nowcoder.sword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,19 +369,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Problem4" />
       <item itemvalue="Application.Problem5" />
       <item itemvalue="Application.Problem7" />
       <item itemvalue="Application.Problem9" />
       <item itemvalue="Application.Problem153" />
+      <item itemvalue="Application.Problem13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem13" />
         <item itemvalue="Application.Problem153" />
         <item itemvalue="Application.Problem9" />
         <item itemvalue="Application.Problem7" />
         <item itemvalue="Application.Problem5" />
-        <item itemvalue="Application.Problem4" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +455,7 @@
       <workItem from="1581597282353" duration="5755000" />
       <workItem from="1581638868693" duration="8074000" />
       <workItem from="1581723487599" duration="27003000" />
-      <workItem from="1581810324673" duration="4399000" />
+      <workItem from="1581810324673" duration="7596000" />
     </task>
     <servers />
   </component>
@@ -476,7 +480,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="485228000" />
+    <option name="totallyTimeSpent" value="488425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -580,13 +584,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem338.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Problem64.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -830,6 +827,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -917,8 +917,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/sword/Problem12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        <state relative-caret-position="192">
+          <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/sword/Problem13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+          <folding>
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1204#1205#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
