@@ -17,7 +17,7 @@ public class Problem22 {
 
     // 快慢指针 鲁棒性
     public ListNode getKthFromEnd(ListNode head, int k) {
-        if (head == null || k >= 0) {
+        if (head == null || k <= 0) {
             return null;
         }
         ListNode fast = head, slow = head;
