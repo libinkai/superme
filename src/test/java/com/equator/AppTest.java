@@ -15,6 +15,7 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        String str = "123你好";
+        System.out.println(str.indexOf("你好"));
     }
 }
