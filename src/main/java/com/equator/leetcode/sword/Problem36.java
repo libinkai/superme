@@ -25,7 +25,36 @@ public class Problem36 {
         }
     }
 
-    public Node treeToDoublyList(Node root) {
+    // 全局变量保存上一次访问的结点
+    Node pre = null;
 
+    public Node treeToDoublyList(Node root) {
+        if (root == null) {
+            return null;
+        }
+        convert(root);
+        Node head = root, tail = root;
+        while (head.left != null) {
+            head = head.left;
+        }
+        while (tail.right != null) {
+            tail = tail.right;
+        }
+        head.left = tail;
+        tail.right = head;
+        return head;
+    }
+
+    public void convert(Node cur) {
+        if (cur == null) {
+            return;
+        }
+        convert(cur.left);
+        cur.left = pre;
+        if (pre != null) {
+            pre.right = cur;
+        }
+        pre = cur;
+        convert(cur.right);
     }
 }
