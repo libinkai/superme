@@ -9,6 +9,6 @@ import java.util.concurrent.Executors;
 
 public class ThreadPoolExecutorTest {
     public static void main(String[] args) {
-        // Executors.newFixedThreadPool(10);
+        Executors.newFixedThreadPool(10);
     }
 }
