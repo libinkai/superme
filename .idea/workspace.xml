@@ -30,20 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem51.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Problem51.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem51.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem52.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem52.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" selection-start-line="8" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="189">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -137,9 +128,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem48.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem49.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem50.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem51.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem52.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem51.java" />
       </list>
     </option>
   </component>
@@ -165,7 +156,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
+    <option name="x" value="951" />
     <option name="y" value="-9" />
     <option name="width" value="978" />
     <option name="height" value="1060" />
@@ -519,7 +510,7 @@
       <workItem from="1582173245920" duration="17768000" />
       <workItem from="1582241624396" duration="11498000" />
       <workItem from="1582352871525" duration="14557000" />
-      <workItem from="1582414407634" duration="6490000" />
+      <workItem from="1582414407634" duration="8365000" />
     </task>
     <servers />
   </component>
@@ -547,7 +538,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="591771000" />
+    <option name="totallyTimeSpent" value="593646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -1028,13 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem51.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1044,8 +1028,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem52.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem51.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>

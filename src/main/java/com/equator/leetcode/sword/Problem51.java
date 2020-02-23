@@ -12,7 +12,7 @@ public class Problem51 {
         if (nums == null || nums.length == 0) {
             return 0;
         }
-        int[] copy = new int[nums.length];
+        int[] copy = Arrays.copyOf(nums, nums.length);
         return rec(nums, copy, 0, nums.length - 1);
     }
 
@@ -22,8 +22,9 @@ public class Problem51 {
             return 0;
         }
         int len = (end - start) / 2;
-        int left = rec(nums, copy, start, start + len);
-        int right = rec(nums, copy, start + len + 1, end);
+        // 交换了数组
+        int left = rec(copy, nums, start, start + len);
+        int right = rec(copy, nums, start + len + 1, end);
         int i = start + len, j = end, k = end;
         int count = 0;
         while (i >= start && j >= start + len + 1) {
