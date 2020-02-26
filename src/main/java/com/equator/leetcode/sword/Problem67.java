@@ -93,6 +93,6 @@ public class Problem67 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Problem67().strToInt(" "));
+        System.out.println(new Problem67().strToInt("    --10"));
     }
 }
