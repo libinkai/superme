@@ -21,13 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Problem68_2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem68_2.java">
+      <file leaf-file-name="Problem43.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem43.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="28" selection-start-line="28" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="41">
+              <caret line="8" selection-start-line="8" selection-end-line="26" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,10 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem31.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem32_1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem32_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem32_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem34.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem33.java" />
@@ -125,6 +122,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem67.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem68_1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem68_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem60.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem45.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem44.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem43.java" />
       </list>
     </option>
   </component>
@@ -150,8 +151,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="258" />
-    <option name="y" value="-23" />
+    <option name="x" value="-373" />
+    <option name="y" value="-24" />
     <option name="width" value="978" />
     <option name="height" value="1050" />
   </component>
@@ -277,20 +278,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem67">
-    <configuration name="ErrorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.equator.exception.ErrorTest" />
+  <component name="RunManager" selected="Application.Problem44">
+    <configuration name="Problem44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.equator.leetcode.sword.Problem44" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.equator.exception.*" />
+          <option name="PATTERN" value="com.equator.leetcode.sword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Problem58_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.equator.leetcode.sword.Problem58_2" />
+      <module name="offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.equator.leetcode.sword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Problem60" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.equator.leetcode.sword.Problem60" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -329,17 +341,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.equator.leetcode.sword.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ThrowableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.equator.exception.ThrowableTest" />
-      <module name="offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.equator.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,19 +387,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ThrowableTest" />
-      <item itemvalue="Application.ErrorTest" />
       <item itemvalue="Application.Problem61" />
       <item itemvalue="Application.Problem64" />
       <item itemvalue="Application.Problem67" />
+      <item itemvalue="Application.Problem60" />
+      <item itemvalue="Application.Problem44" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem44" />
+        <item itemvalue="Application.Problem60" />
         <item itemvalue="Application.Problem67" />
         <item itemvalue="Application.Problem64" />
         <item itemvalue="Application.Problem61" />
-        <item itemvalue="Application.ErrorTest" />
-        <item itemvalue="Application.ThrowableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +488,7 @@
       <workItem from="1582503031074" duration="678000" />
       <workItem from="1582508462966" duration="10255000" />
       <workItem from="1582586941511" duration="36115000" />
-      <workItem from="1582671219258" duration="20787000" />
+      <workItem from="1582671219258" duration="34947000" />
     </task>
     <servers />
   </component>
@@ -524,7 +525,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="661522000" />
+    <option name="totallyTimeSpent" value="675682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -567,7 +568,7 @@
       <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.33286908" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.33286908" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
       <window_info id="UI Designer" order="4" />
@@ -659,6 +660,12 @@
           <properties />
           <option name="timeStamp" value="122" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem44.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem51.java</url>
           <line>18</line>
@@ -671,7 +678,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="123" />
+      <option name="time" value="126" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -689,34 +696,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem35.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem36.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3731">
-          <caret line="88" column="37" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/concurrent/executor/ThreadPoolExecutorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/concurrent/threadpool/ThreadPoolTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1070,10 +1049,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem68_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="28" selection-start-line="28" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="305">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem60.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem45.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem44.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem43.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="8" selection-start-line="8" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
           </folding>
         </state>
       </provider>
