@@ -16,6 +16,6 @@ public class Problem63 {
             min = Math.min(min, prices[i - 1]);
             maxProfit = Math.max(maxProfit, prices[i] - min);
         }
-        return maxProfit;
+        return maxProfit > 0 ? maxProfit : 0;
     }
 }
