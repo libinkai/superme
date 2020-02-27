@@ -34,7 +34,7 @@ public class Problem67 {
             if (res > Integer.MAX_VALUE / 10 || (res == Integer.MAX_VALUE / 10 && r > 7)) {
                 return flag > 0 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
             }
-            // 左移一位，秒！
+            // 左移一位，妙！
             res = res * 10 + r;
             i++;
         }
