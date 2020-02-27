@@ -16,7 +16,9 @@ public class RecursionMergeSort implements Sortable {
 
     /**
      * 合并
-     *
+     * 将[left,middle)、[middle,right]两个各自有序的数组合并到同一个数组
+     * 即回归到“合并两个有序数组”
+     * 不可能做到原地排序，因为
      * @param array  原数组
      * @param left   左边子序列下标
      * @param middle 分割下标
