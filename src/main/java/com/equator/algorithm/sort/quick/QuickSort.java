@@ -46,6 +46,8 @@ public class QuickSort implements Sortable {
     }
 
     public static void main(String[] args) {
-        SortUtil.sort(new QuickSort());
+        // SortUtil.sort(new QuickSort());
+        int[] nums = {1, 3, 5, 2, 4};
+        new QuickSort().sort(nums);
     }
 }
