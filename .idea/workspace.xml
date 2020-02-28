@@ -21,11 +21,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Problem1038.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1038.java">
+      <file leaf-file-name="Problem100.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem100.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="336">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem42.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem46.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem47.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem48.java" />
@@ -122,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/gold/Problem17_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1038.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem100.java" />
       </list>
     </option>
   </component>
@@ -475,7 +479,7 @@
       <workItem from="1582586941511" duration="36115000" />
       <workItem from="1582671219258" duration="37671000" />
       <workItem from="1582758245418" duration="15433000" />
-      <workItem from="1582857959550" duration="2906000" />
+      <workItem from="1582857959550" duration="3855000" />
     </task>
     <servers />
   </component>
@@ -512,7 +516,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="696745000" />
+    <option name="totallyTimeSpent" value="697694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -689,13 +693,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem50.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem53_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -1040,8 +1037,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1038.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="185">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem100.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
