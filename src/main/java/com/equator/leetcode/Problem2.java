@@ -10,7 +10,7 @@ import java.util.LinkedList;
  **/
 
 public class Problem2 {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    /*public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null || l2 == null) {
             return null;
         }
@@ -47,5 +47,37 @@ public class Problem2 {
             }
         }
         return val;
+    }*/
+
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        int carry = 0, sum = 0;
+        ListNode p1 = l1, last = null;
+        while (p1 != null || l2 != null) {
+            if (p1 == null) {
+                p1 = l2;
+                last.next = p1;
+                l2 = null;
+                continue;
+            }
+            if (l2 == null) {
+                sum = p1.val + carry;
+                carry = sum / 10;
+                p1.val = sum % 10;
+                last = p1;
+                p1 = p1.next;
+                continue;
+            }
+            sum = p1.val + l2.val + carry;
+            carry = sum / 10;
+            p1.val = sum % 10;
+            last = p1;
+            p1 = p1.next;
+            l2 = l2.next;
+        }
+        if (carry != 0) {
+            p1 = new ListNode(carry);
+            last.next = p1;
+        }
+        return l1;
     }
 }
