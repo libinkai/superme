@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Problem17_2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/gold/Problem17_2.java">
+      <file leaf-file-name="Problem1038.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1038.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="10" selection-start-line="10" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="89">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -71,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem40.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem42.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem46.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem47.java" />
@@ -122,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/gold/Problem17_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1038.java" />
       </list>
     </option>
   </component>
@@ -475,7 +475,7 @@
       <workItem from="1582586941511" duration="36115000" />
       <workItem from="1582671219258" duration="37671000" />
       <workItem from="1582758245418" duration="15433000" />
-      <workItem from="1582857959550" duration="1893000" />
+      <workItem from="1582857959550" duration="2906000" />
     </task>
     <servers />
   </component>
@@ -512,7 +512,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="695732000" />
+    <option name="totallyTimeSpent" value="696745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -689,13 +689,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem52.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem50.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -1040,8 +1033,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/gold/Problem17_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="10" selection-start-line="10" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1038.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
