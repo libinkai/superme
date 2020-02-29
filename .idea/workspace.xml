@@ -24,8 +24,8 @@
       <file leaf-file-name="Problem101.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem101.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="500">
+              <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#159#160#0" expanded="true" />
@@ -482,7 +482,7 @@
       <workItem from="1582758245418" duration="15433000" />
       <workItem from="1582857959550" duration="3855000" />
       <workItem from="1582886122282" duration="660000" />
-      <workItem from="1582970275950" duration="972000" />
+      <workItem from="1582970275950" duration="1198000" />
     </task>
     <servers />
   </component>
@@ -519,7 +519,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="699326000" />
+    <option name="totallyTimeSpent" value="699552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -1051,8 +1051,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem101.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="500">
+          <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#159#160#0" expanded="true" />

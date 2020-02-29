@@ -26,6 +26,7 @@ public class Problem101 {
             if (node1.val != node2.val) {
                 return false;
             }
+            // 画个图出来就很好理解了，怎么判断两棵树是不是对称的？树A的左子树等于B的右子树，树A的右子树等于树B的左子树
             list.add(node1.left);
             list.add(node2.right);
             list.add(node1.right);
