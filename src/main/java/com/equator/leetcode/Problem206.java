@@ -6,7 +6,6 @@ import java.util.Stack;
  * @Author: Equator
  * @Date: 2020/1/15 10:11
  **/
-
 public class Problem206 {
     static class ListNode {
         int val;
@@ -107,5 +106,22 @@ public class Problem206 {
             System.out.print(tempNode.val + "->");
             tempNode = tempNode.next;
         }
+    }
+
+    /**
+     * @return com.equator.leetcode.Problem206.ListNode
+     * @Author LBJ
+     * @Date 2020/3/2 7:17
+     * @Param [head]
+     **/
+    public ListNode reverseList3(ListNode head) {
+        ListNode pre = null, cur = head, next = null;
+        while (cur != null) {
+            next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
+        }
+        return pre;
     }
 }
