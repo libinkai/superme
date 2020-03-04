@@ -28,7 +28,7 @@ public class Problem994 {
                 }
             }
         }
-        // 多源BFS
+        // 多源BFS，首先一次遍历找出源头
         while (!queue.isEmpty()) {
             boolean infect = false;
             // size一定要固定住
