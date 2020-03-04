@@ -39,7 +39,7 @@ public class Problem322 {
     }
 
     public static void main(String[] args) {
-        int[] coins = {1, 2, 5};
-        System.out.println(new Problem322().coinChange(coins, 11));
+        int[] coins = { 2, 5};
+        System.out.println(new Problem322().coinChange(coins, 49));
     }
 }
