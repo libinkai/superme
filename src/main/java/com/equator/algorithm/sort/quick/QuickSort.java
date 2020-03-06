@@ -14,12 +14,14 @@ public class QuickSort implements Sortable {
     @Override
     public void sort(int[] array) {
         int low = 0, high = array.length - 1;
+        // 第一个、最后一个元素的下标
         sort(array, low, high);
     }
 
     public void sort(int[] array, int low, int high) {
         int pivot;
         if (low < high) {
+            // 分区
             pivot = partition(array, low, high);
             sort(array, low, pivot - 1);
             sort(array, pivot + 1, high);
