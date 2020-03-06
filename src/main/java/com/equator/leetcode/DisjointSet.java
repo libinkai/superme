@@ -1,6 +1,7 @@
 package com.equator.leetcode;
 
 /**
+ * 集合大小，父指针
  * @Author: Equator
  * @Date: 2020/1/29 12:45
  **/

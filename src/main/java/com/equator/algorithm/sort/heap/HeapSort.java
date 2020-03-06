@@ -22,13 +22,13 @@ public class HeapSort implements Sortable {
         int lastNodeIndex = len - 1;
         // 从最后一个有孩子的节点（即最后一个叶子节点的父节点）开始建立大顶堆，最后一个非叶子结点
         for (int i = (lastNodeIndex - 1) / 2; i >= 0; i--) {
-            heapify(array, len, i);
+            heapify(array, i, len);
         }
         // 从最后一个节点 i 开始，依次和堆顶 0 进行交换
         for (int i = lastNodeIndex; i >= 0; i--) {
             SortUtil.swap(array, i, 0);
             // 堆（待排序的序列）不断缩短，故将i作为len传入函数
-            heapify(array, i, 0);
+            heapify(array, 0, i);
         }
     }
 
@@ -39,7 +39,7 @@ public class HeapSort implements Sortable {
      * @param len   堆的节点个数
      * @param index 要调整的节点的下标
      */
-    public void heapify(int[] array, int len, int index) {
+    public void heapify(int[] array, int index, int len) {
         if (index >= len) {
             return;
         }
@@ -58,7 +58,7 @@ public class HeapSort implements Sortable {
         if (maxIndex != index) {
             SortUtil.swap(array, maxIndex, index);
             // 调整之后其它的大顶堆属性可能被破坏，需要继续调整
-            heapify(array, len, maxIndex);
+            heapify(array, maxIndex, len);
         }
     }
 
