@@ -5,6 +5,8 @@ import com.equator.algorithm.sort.Sortable;
 import com.equator.algorithm.sort.bubble.BubbleSort;
 import com.equator.algorithm.sort.insertion.InsertionSort;
 
+import java.util.Arrays;
+
 /**
  * @Author: Equator
  * @Date: 2019/11/26 20:36
@@ -20,6 +22,7 @@ public class QuickSort implements Sortable {
 
     public void sort(int[] array, int low, int high) {
         int pivot;
+        // 是if不是while！！！！卧槽
         if (low < high) {
             // 分区
             pivot = partition(array, low, high);
@@ -51,5 +54,6 @@ public class QuickSort implements Sortable {
         // SortUtil.sort(new QuickSort());
         int[] nums = {1, 3, 5, 2, 4};
         new QuickSort().sort(nums);
+        System.out.println(Arrays.toString(nums));
     }
 }
