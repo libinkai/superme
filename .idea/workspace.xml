@@ -58,8 +58,8 @@
       <file leaf-file-name="Problem543.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem543.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="509">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -533,7 +533,7 @@
       <workItem from="1583719763155" duration="2397000" />
       <workItem from="1583726289154" duration="2288000" />
       <workItem from="1583832185614" duration="60000" />
-      <workItem from="1583832525038" duration="1981000" />
+      <workItem from="1583832525038" duration="2846000" />
     </task>
     <servers />
   </component>
@@ -570,10 +570,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="770589000" />
+    <option name="totallyTimeSpent" value="771454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="-7" width="782" height="848" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -1105,8 +1105,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem543.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="509">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
