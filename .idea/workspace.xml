@@ -24,8 +24,8 @@
       <file leaf-file-name="MyQuickList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/datastruct/list/MyQuickList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="56" column="49" lean-forward="true" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+            <state relative-caret-position="875">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#900#901#0" expanded="true" />
                 <element signature="e#932#933#0" expanded="true" />
@@ -151,8 +151,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
+    <option name="x" value="950" />
+    <option name="width" value="979" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -502,7 +502,7 @@
       <workItem from="1583832525038" duration="2846000" />
       <workItem from="1583848506476" duration="233000" />
       <workItem from="1583890406820" duration="5225000" />
-      <workItem from="1583908116644" duration="6619000" />
+      <workItem from="1583908116644" duration="8324000" />
     </task>
     <servers />
   </component>
@@ -539,7 +539,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="783531000" />
+    <option name="totallyTimeSpent" value="785236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -556,8 +556,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32976446" />
       <window_info id="leetcode" order="7" side_tool="true" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.36072424" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4394366" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.316156" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.43871868" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.06406685" weight="0.4163209" />
@@ -568,7 +568,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.92719483" side_tool="true" weight="0.15281501" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40389973" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.52785516" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -704,6 +704,12 @@
           <properties />
           <option name="timeStamp" value="144" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/equator/datastruct/list/MyQuickList.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem51.java</url>
           <line>18</line>
@@ -716,7 +722,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="145" />
+      <option name="time" value="146" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1080,8 +1086,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/datastruct/list/MyQuickList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="56" column="49" lean-forward="true" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+        <state relative-caret-position="875">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#900#901#0" expanded="true" />
             <element signature="e#932#933#0" expanded="true" />
