@@ -29,6 +29,7 @@ public class MyStack {
             throw new Exception();
         }
         size--;
+        // 先减一再获取数据
         return data[--top];
     }
 
