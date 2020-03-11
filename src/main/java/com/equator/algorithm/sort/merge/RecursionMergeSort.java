@@ -19,6 +19,7 @@ public class RecursionMergeSort implements Sortable {
      * 将[left,middle)、[middle,right]两个各自有序的数组合并到同一个数组
      * 即回归到“合并两个有序数组”
      * 不可能做到原地排序，因为空间有限，需要创建额外的数组
+     *
      * @param array  原数组
      * @param left   左边子序列下标
      * @param middle 分割下标
@@ -58,11 +59,11 @@ public class RecursionMergeSort implements Sortable {
         if (left == right) {
             return;
         }
-        // 区间划分
+        // 区间划分[left,middle] (middle,right]
         int middle = (left + right) / 2;
         sort(array, left, middle);
         sort(array, middle + 1, right);
-        // 合并
+        // 合并 [left,middle] (middle,right]
         merge(array, left, middle + 1, right);
     }
 
