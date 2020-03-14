@@ -1,29 +1,30 @@
-package com.equator.datastruct;
+package com.equator.datastruct.array;
 
 import java.util.Arrays;
 
 /**
- * 实现一个整形数组
+ * 实现一个泛型数组
  *
  * @Author: Equator
  * @Date: 2020/3/14 14:35
  **/
 
-public class MyIntArray {
-    int[] data;
+public class MyGenericArray<E> {
+    E[] data;
     // size 既是数组的当前持有元素的数量，也是数组中第一个没有元素的索引
     private int size;
 
     // 创建指定容量大小的数组
-    public MyIntArray(int capacity) {
+    public MyGenericArray(int capacity) {
         if (capacity > 0) {
-            data = new int[capacity];
+            // 不支持这样的语法 data = new E[capacity];
+            data = (E[]) new Object[capacity];
             size = 0;
         }
     }
 
     // 创建默认容量为16的数组
-    public MyIntArray() {
+    public MyGenericArray() {
         this(16);
     }
 
@@ -40,7 +41,7 @@ public class MyIntArray {
     }
 
     // 在指定位置插入元素
-    public void add(int index, int e) {
+    public void add(int index, E e) {
         if (size == data.length) {
             throw new IllegalArgumentException("array is full");
         }
@@ -54,49 +55,50 @@ public class MyIntArray {
         size++;
     }
 
-    public void addFirst(int e) {
+    public void addFirst(E e) {
         add(0, e);
     }
 
-    public void addLast(int e) {
+    public void addLast(E e) {
         add(size, e);
     }
 
-    public int get(int index) {
+    public E get(int index) {
         if (0 > index || index >= size) {
             throw new IllegalArgumentException("invalid index");
         }
         return data[index];
     }
 
-    public void set(int index, int e) {
+    public void set(int index, E e) {
         if (0 > index || index >= size) {
             throw new IllegalArgumentException("invalid index");
         }
         data[index] = e;
     }
 
-    public int index(int e) {
+    public int index(E e) {
         for (int i = 0; i < size; i++) {
-            if (data[i] == e) {
+            // 泛型数组，需要使用equals而不是==
+            if (data[i].equals(e)) {
                 return i;
             }
         }
         return -1;
     }
 
-    public boolean contains(int e) {
+    public boolean contains(E e) {
         if (index(e) == -1) {
             return false;
         }
         return true;
     }
 
-    public int remove(int index) {
+    public E remove(int index) {
         if (0 > index || index >= size) {
             throw new IllegalArgumentException("invalid index");
         }
-        int ret = data[index];
+        E ret = data[index];
         for (int i = index + 1; i < size; i++) {
             data[i - 1] = data[i];
         }
@@ -104,15 +106,15 @@ public class MyIntArray {
         return ret;
     }
 
-    public int removeFirst() {
+    public E removeFirst() {
         return remove(0);
     }
 
-    public int removeLast() {
+    public E removeLast() {
         return remove(size - 1);
     }
 
-    public void removeElement(int e) {
+    public void removeElement(E e) {
         int idx = index(e);
         if (idx != -1) {
             remove(idx);
