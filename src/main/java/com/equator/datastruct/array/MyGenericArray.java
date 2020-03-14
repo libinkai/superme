@@ -42,7 +42,7 @@ public class MyGenericArray<E> {
 
     private void resize(int newCapacity) {
         E[] newData = (E[]) new Object[newCapacity];
-        for (int i = 0; i < data.length; i++) {
+        for (int i = 0; i < size; i++) {
             newData[i] = data[i];
         }
         data = newData;
@@ -77,6 +77,14 @@ public class MyGenericArray<E> {
             throw new IllegalArgumentException("invalid index");
         }
         return data[index];
+    }
+
+    public E getLast() {
+        return get(size - 1);
+    }
+
+    public E getFirst() {
+        return get(0);
     }
 
     public void set(int index, E e) {
