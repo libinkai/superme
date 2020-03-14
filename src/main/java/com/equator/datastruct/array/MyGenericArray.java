@@ -3,7 +3,7 @@ package com.equator.datastruct.array;
 import java.util.Arrays;
 
 /**
- * 实现一个泛型数组
+ * 实现一个泛型动态数组
  *
  * @Author: Equator
  * @Date: 2020/3/14 14:35
@@ -40,13 +40,22 @@ public class MyGenericArray<E> {
         return size == 0;
     }
 
+    private void resize(int newCapacity) {
+        E[] newData = (E[]) new Object[newCapacity];
+        for (int i = 0; i < data.length; i++) {
+            newData[i] = data[i];
+        }
+        data = newData;
+    }
+
     // 在指定位置插入元素
     public void add(int index, E e) {
-        if (size == data.length) {
-            throw new IllegalArgumentException("array is full");
-        }
         if (0 > index || index > size) {
             throw new IllegalArgumentException("invalid index");
+        }
+        // 为什么是两倍呢？这保证了新数组的容量与旧的数组容量在同一个数量级上
+        if (size == data.length) {
+            resize(2 * data.length);
         }
         for (int i = size - 1; i >= index; i--) {
             data[i + 1] = data[i];
@@ -105,6 +114,11 @@ public class MyGenericArray<E> {
         // help GC
         data[size] = null;
         size--;
+        // 如果在data.length/2处进行缩小容量，如果在此处频繁做增减，有可能造成时间复杂度的震荡
+        // 震荡的避免：在数组元素为容量的1/4时缩容一半，而不是在数组元素为容量的1/2时缩容
+        if (size == data.length / 4) {
+            resize(data.length / 2);
+        }
         return ret;
     }
 
