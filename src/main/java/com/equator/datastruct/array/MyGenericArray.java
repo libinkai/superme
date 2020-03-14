@@ -102,6 +102,8 @@ public class MyGenericArray<E> {
         for (int i = index + 1; i < size; i++) {
             data[i - 1] = data[i];
         }
+        // help GC
+        data[size] = null;
         size--;
         return ret;
     }
