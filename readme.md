@@ -18,10 +18,11 @@
 - [循环有界队列](./src/main/java/com/equator/datastruct/queue/MyQuickQueue.java)
 - 遍历一个循环队列的方法
   ```
+  方法一：
   for(int i = 0;i < size;i++){
       data[(i + front) % data.length]
   }
-  
+  方法二：
   for(int i = front;i != tail;i = (i+1) % data.length){
       data[i]
   }
