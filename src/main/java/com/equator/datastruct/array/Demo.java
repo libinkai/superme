@@ -1,6 +1,6 @@
 package com.equator.datastruct.array;
 
-import com.equator.datastruct.stack.MyGenericStack;
+import com.equator.datastruct.stack.MyArrayStack;
 
 /**
  * @Author: Equator
@@ -9,14 +9,14 @@ import com.equator.datastruct.stack.MyGenericStack;
 
 public class Demo {
     public static void main(String[] args) {
-        MyGenericStack<Integer> myGenericStack = new MyGenericStack<>();
-        myGenericStack.push(1);
-        myGenericStack.push(2);
-        myGenericStack.push(3);
-        myGenericStack.push(4);
-        myGenericStack.push(5);
-        while (!myGenericStack.isEmpty()) {
-            System.out.println(myGenericStack.pop());
+        MyArrayStack<Integer> myArrayStack = new MyArrayStack<>();
+        myArrayStack.push(1);
+        myArrayStack.push(2);
+        myArrayStack.push(3);
+        myArrayStack.push(4);
+        myArrayStack.push(5);
+        while (!myArrayStack.isEmpty()) {
+            System.out.println(myArrayStack.pop());
         }
     }
 }

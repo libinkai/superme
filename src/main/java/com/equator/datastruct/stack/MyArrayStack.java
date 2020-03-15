@@ -10,10 +10,10 @@ import com.equator.datastruct.array.MyStack;
  * @Date: 2020/3/14 22:33
  **/
 
-public class MyGenericStack<E> implements MyStack<E> {
+public class MyArrayStack<E> implements MyStack<E> {
     MyGenericArray<E> array;
 
-    public MyGenericStack() {
+    public MyArrayStack() {
         array = new MyGenericArray<>();
     }
 
