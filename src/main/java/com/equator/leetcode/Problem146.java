@@ -21,11 +21,11 @@ public class Problem146 {
 
         private int capacity;
         private Map<Integer, Node> map;
-        private Deque<Node> list;
+        private Deque<Node> queue;
 
         public LRUCache(int capacity) {
             this.capacity = capacity;
-            list = new LinkedList<>();
+            queue = new LinkedList<>();
             map = new HashMap<>(capacity);
         }
 
@@ -41,16 +41,16 @@ public class Problem146 {
         public void put(int key, int value) {
             Node node = new Node(key, value);
             if (map.containsKey(key)) {
-                list.remove(map.get(key));
-                list.addFirst(node);
+                queue.remove(map.get(key));
+                queue.addFirst(node);
                 map.put(key, node);
             } else {
                 if (map.size() == capacity) {
-                    Node last = list.removeLast();
+                    Node last = queue.removeLast();
                     map.remove(last.key);
                 }
                 map.put(key, node);
-                list.addFirst(node);
+                queue.addFirst(node);
             }
         }
     }

@@ -19,7 +19,7 @@ public class Problem62 {
         for (int i = 0; i < n; i++) {
             list.add(i);
         }
-        // 第一次删除的数字下标为(m-1)%n记为c，之后每一次删除的数字下标均为(c+m-1)%list.size()
+        // 第一次删除的数字下标为(m-1)%n记为c，之后每一次删除的数字下标均为(c+m-1)%queue.size()
         int idx = (m - 1) % n;
         while (list.size() > 1) {
             list.remove(idx);

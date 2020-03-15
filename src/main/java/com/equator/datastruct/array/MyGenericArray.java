@@ -120,7 +120,7 @@ public class MyGenericArray<E> {
             data[i - 1] = data[i];
         }
         // help GC
-        data[size] = null;
+        data[size - 1] = null;
         size--;
         // 如果在data.length/2处进行缩小容量，如果在此处频繁做增减，有可能造成时间复杂度的震荡
         // 震荡的避免：在数组元素为容量的1/4时缩容一半，而不是在数组元素为容量的1/2时缩容
