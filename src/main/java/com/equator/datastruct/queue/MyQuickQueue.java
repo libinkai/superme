@@ -7,34 +7,39 @@ package com.equator.datastruct.queue;
  * @Date: 2020/3/11 19:14
  **/
 
-public class MyQuickList {
-    int[] data;
+public class MyQuickQueue<E> implements MyQueue<E> {
+    E[] data;
     int capacity = 0, size = 0;
     int head = 0, tail = 0;
 
-    public MyQuickList(int capacity) {
-        this.capacity = capacity;
-        this.data = new int[capacity];
+    public MyQuickQueue() {
+        this(16);
     }
 
-    public boolean add(int val) {
+    public MyQuickQueue(int capacity) {
+        this.capacity = capacity;
+        this.data = (E[]) new Object[capacity];
+    }
+
+    @Override
+    public void enqueue(E e) {
         if (size == capacity) {
-            return false;
+            return;
         }
-        data[tail] = val;
+        data[tail] = e;
         tail++;
         size++;
         if (tail == capacity) {
             tail = 0;
         }
-        return true;
     }
 
-    public int remove() throws Exception {
+    @Override
+    public E dequeue() {
         if (size == 0) {
-            throw new Exception();
+            throw new IllegalArgumentException("queue is empty");
         }
-        int headVal = data[head];
+        E headVal = data[head];
         head++;
         size--;
         if (head == capacity) {
@@ -43,6 +48,17 @@ public class MyQuickList {
         return headVal;
     }
 
+    @Override
+    public E getFront() {
+        return data[head];
+    }
+
+    @Override
+    public int getSize() {
+        return size;
+    }
+
+    @Override
     public boolean isEmpty() {
         return size == 0;
     }

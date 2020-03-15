@@ -18,6 +18,7 @@ public class MyCycleQueue<E> implements MyQueue<E> {
     }
 
     public MyCycleQueue(int capacity) {
+        // 浪费一个空间
         data = (E[]) new Object[capacity + 1];
         front = 0;
         tail = 0;

@@ -7,24 +7,24 @@ package com.equator.datastruct.queue;
 
 public class Demo {
     public static void main(String[] args) throws Exception {
-        MyQuickList myQuickList = new MyQuickList(6);
-        System.out.println(myQuickList.add(1));
-        System.out.println(myQuickList.remove());
-        System.out.println(myQuickList.add(2));
-        System.out.println(myQuickList.add(3));
-        System.out.println(myQuickList.remove());
-        System.out.println(myQuickList.remove());
-        System.out.println(myQuickList.add(4));
-        System.out.println(myQuickList.add(5));
-        System.out.println(myQuickList.add(6));
-        System.out.println(myQuickList.add(7));
-        System.out.println(myQuickList.add(8));
-        System.out.println(myQuickList.add(9));
-        while (!myQuickList.isEmpty()) {
-            System.out.println(myQuickList.remove());
+        MyQuickQueue myQuickQueue = new MyQuickQueue(8);
+        myQuickQueue.enqueue(1);
+        System.out.println(myQuickQueue.dequeue());
+        myQuickQueue.enqueue(2);
+        myQuickQueue.enqueue(3);
+        System.out.println(myQuickQueue.dequeue());
+        System.out.println(myQuickQueue.dequeue());
+        myQuickQueue.enqueue(4);
+        myQuickQueue.enqueue(5);
+        myQuickQueue.enqueue(6);
+        myQuickQueue.enqueue(7);
+        myQuickQueue.enqueue(8);
+        myQuickQueue.enqueue(9);
+        while (!myQuickQueue.isEmpty()) {
+            System.out.println(myQuickQueue.dequeue());
         }
         System.out.println("--------------------------------------------");
-        MyCycleQueue<Integer> myCycleQueue = new MyCycleQueue<>(4);
+        MyCycleQueue<Integer> myCycleQueue = new MyCycleQueue<>(8);
         myCycleQueue.enqueue(1);
         System.out.println(myCycleQueue.dequeue());
         myCycleQueue.enqueue(2);

@@ -9,12 +9,23 @@
 - 防止时间复杂度的震荡（延迟缩容的时机）：缩容的条件与扩容的条件不对偶即可，如扩容2倍，那么在数组元素为容量的1/4时缩容一半，而不是在数组元素为容量的1/2时缩容
 
 ## 栈
-- [使用动态数组实现栈](./src/main/java/com/equator/datastruct/stack/MyGenericStack.java)
-- push()、pop()的均摊时间复杂度均为O(1)
+- [使用动态数组实现栈](./src/main/java/com/equator/datastruct/stack/MyGenericStack.java)，push()、pop()的均摊时间复杂度均为O(1)
 
 ## 队列
-
-
+> 循环队列，一般要循环利用指针，可以借助取余运算进行计算对应的下标
+- [使用动态数组实现队列，入队O(1)，出队O(n)](./src/main/java/com/equator/datastruct/queue/MyArrayQueue.java)，front==tail时队列空，front+1==tail满队列（浪费一个空间）
+- [循环动态队列，通过改变指针指向实现（取余运算）循环队列，入队O(1)，出队O(n)](./src/main/java/com/equator/datastruct/queue/MyCycleQueue.java)
+- [循环有界队列](./src/main/java/com/equator/datastruct/queue/MyQuickQueue.java)
+- 遍历一个循环队列的方法
+  ```
+  for(int i = 0;i < size;i++){
+      data[(i + front) % data.length]
+  }
+  
+  for(int i = front;i != tail;i = (i+1) % data.length){
+      data[i]
+  }
+  ```
 # 算法
 
 # leetcode题解
