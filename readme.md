@@ -9,10 +9,8 @@
 - 防止时间复杂度的震荡（延迟缩容的时机）：缩容的条件与扩容的条件不对偶即可，如扩容2倍，那么在数组元素为容量的1/4时缩容一半，而不是在数组元素为容量的1/2时缩容
 
 ## 链表
-- 链表实现
-- 为了统一对节点的操作，创建一个虚拟的头节点
-- 使用链表实现栈，将链表头作为栈顶即可
-- 带有尾节点指针的链表，可以实现队列
+- [链表实现](./src/main/java/com/equator/datastruct/linkedlist/MyGenericLinkedList.java)
+- [为了统一对节点的操作，创建一个虚拟的头节点](./src/main/java/com/equator/datastruct/linkedlist/MyGenericLinkedListWithDummyHead.java)
 
 ## 栈
 - [使用动态数组实现栈](./src/main/java/com/equator/datastruct/stack/MyArrayStack.java)，push()、pop()的均摊时间复杂度均为O(1)
@@ -34,7 +32,7 @@
       data[i]
   }
   ```
-- [使用链表实现队列](./src/main/java/com/equator/datastruct/queue/MyLinkedListQueue.java)
+- [使用链表实现队列，添加尾部指针](./src/main/java/com/equator/datastruct/queue/MyLinkedListQueue.java)
 
 
 ## BST
