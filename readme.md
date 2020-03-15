@@ -8,8 +8,15 @@
 - 时间复杂度分析以及均摊时间复杂度：并不是每次操作都会触发resize方法，resize的成本可以均摊到其它的操作上面
 - 防止时间复杂度的震荡（延迟缩容的时机）：缩容的条件与扩容的条件不对偶即可，如扩容2倍，那么在数组元素为容量的1/4时缩容一半，而不是在数组元素为容量的1/2时缩容
 
+## 链表
+- 链表实现
+- 为了统一对节点的操作，创建一个虚拟的头节点
+- 使用链表实现栈，将链表头作为栈顶即可
+- 带有尾节点指针的链表，可以实现队列
+
 ## 栈
-- [使用动态数组实现栈](./src/main/java/com/equator/datastruct/stack/MyGenericStack.java)，push()、pop()的均摊时间复杂度均为O(1)
+- [使用动态数组实现栈](./src/main/java/com/equator/datastruct/stack/MyArrayStack.java)，push()、pop()的均摊时间复杂度均为O(1)
+- [使用链表实现栈](./src/main/java/com/equator/datastruct/stack/MyLinkedListStack.java)，将链表的头作为栈顶，push()、pop()的时间复杂度均为O(1)
 
 ## 队列
 > 循环队列，一般要循环利用指针，可以借助取余运算进行计算对应的下标
@@ -27,11 +34,8 @@
       data[i]
   }
   ```
-## 链表
-- 链表实现
-- 为了统一对节点的操作，创建一个虚拟的头节点
-- 使用链表实现栈，将链表头作为栈顶即可
-- 带有尾节点指针的链表，可以实现队列
+- [使用链表实现队列](./src/main/java/com/equator/datastruct/queue/MyLinkedListQueue.java)
+
 
 ## BST
 
@@ -51,5 +55,17 @@
 
 ## 哈希
 # 算法
+
+## 排序算法
+### 冒泡排序
+### 快速排序
+### 简单插入排序
+### 希尔排序
+### 简单选择排序
+### 堆排序
+### 归并排序
+### 基数排序
+### 计数排序
+### 桶排序
 
 # leetcode题解

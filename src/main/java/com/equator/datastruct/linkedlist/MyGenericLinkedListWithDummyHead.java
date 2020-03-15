@@ -44,7 +44,7 @@ public class MyGenericLinkedListWithDummyHead<E> {
         return size == 0;
     }
 
-    // 在指定的“索引”插入元素（从0开始，0需要特殊处理）
+    // 对于index==0，无需特殊处理
     public void add(int index, E e) {
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("invalid index");
@@ -132,6 +132,7 @@ public class MyGenericLinkedListWithDummyHead<E> {
         Node deleteNode = prev.next;
         prev.next = deleteNode.next;
         deleteNode.next = null;
+        size--;
         return deleteNode.e;
     }
 

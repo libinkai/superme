@@ -1,7 +1,6 @@
 package com.equator.datastruct.stack;
 
 import com.equator.datastruct.array.MyGenericArray;
-import com.equator.datastruct.array.MyStack;
 
 /**
  * 实现一个泛型栈（利用动态数组）

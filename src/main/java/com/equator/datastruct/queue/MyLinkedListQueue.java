@@ -1,7 +1,5 @@
 package com.equator.datastruct.queue;
 
-import com.equator.datastruct.linkedlist.MyGenericLinkedListWithDummyHead;
-
 /**
  * @Author: Equator
  * @Date: 2020/3/15 14:13
