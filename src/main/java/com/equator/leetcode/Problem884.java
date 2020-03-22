@@ -10,7 +10,7 @@ import java.util.*;
  **/
 
 public class Problem884 {
-    public String[] uncommonFromSentences(String A, String B) {
+    public String[] uncommonFromSentences0(String A, String B) {
         String[] Astrs = A.split(" ");
         String[] Bstrs = B.split(" ");
         List<String> res = new LinkedList<>();
@@ -44,6 +44,29 @@ public class Problem884 {
             }
         }
         return map;
+    }
+
+    // 全局思维！
+    public String[] uncommonFromSentences(String A, String B) {
+        Map<String, Integer> map = new HashMap<>();
+        for (String s : A.split(" ")) {
+            map.put(s, map.getOrDefault(s, 0) + 1);
+        }
+        for (String s : B.split(" ")) {
+            map.put(s, map.getOrDefault(s, 0) + 1);
+        }
+        List<String> res = new LinkedList<>();
+//        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+//            if (entry.getValue() == 1) {
+//                res.add(entry.getKey());
+//            }
+//        }
+        for (String k : map.keySet()) {
+            if (map.get(k) == 1) {
+                res.add(k);
+            }
+        }
+        return res.toArray(new String[res.size()]);
     }
 
     public static void main(String[] args) {
