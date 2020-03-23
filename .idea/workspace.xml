@@ -21,23 +21,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Problem566.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem566.java">
+      <file leaf-file-name="Problem210.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem210.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="-885">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem215.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem215.java">
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
-              <folding>
-                <element signature="method#findKthLargest#0;class#Problem215#0" />
-              </folding>
+            <state relative-caret-position="229">
+              <caret line="210" column="12" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="1095" column="19" selection-start-line="1095" selection-start-column="19" selection-end-line="1095" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -86,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1071.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/review/leetcode/Solution169.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/review/leetcode/Solution300.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/MyArray.java" />
@@ -137,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem876.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem566.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem215.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem210.java" />
       </list>
     </option>
   </component>
@@ -319,9 +325,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Problem215.test0">
-    <configuration name="Problem884" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.equator.leetcode.Problem884" />
+  <component name="RunManager" selected="Application.Problem210">
+    <configuration name="Problem210" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.equator.leetcode.Problem210" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -465,19 +471,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Problem884" />
       <item itemvalue="JUnit.Problem215.test" />
       <item itemvalue="JUnit.Problem215" />
       <item itemvalue="JUnit.Problem215.test0" />
       <item itemvalue="JUnit.Problem215.test1" />
+      <item itemvalue="Application.Problem210" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem210" />
         <item itemvalue="JUnit.Problem215.test0" />
         <item itemvalue="JUnit.Problem215" />
         <item itemvalue="JUnit.Problem215.test1" />
         <item itemvalue="JUnit.Problem215.test" />
-        <item itemvalue="Application.Problem884" />
       </list>
     </recent_temporary>
   </component>
@@ -605,7 +611,7 @@
       <workItem from="1584835608859" duration="7651000" />
       <workItem from="1584877914189" duration="2596000" />
       <workItem from="1584882550191" duration="5629000" />
-      <workItem from="1584920831422" duration="14733000" />
+      <workItem from="1584920831422" duration="20736000" />
     </task>
     <servers />
   </component>
@@ -642,11 +648,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="920105000" />
+    <option name="totallyTimeSpent" value="926108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -671,7 +676,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.92719483" side_tool="true" weight="0.15281501" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41086352" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41086352" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33239436" />
@@ -684,10 +689,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.22423398" />
       <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33239436" />
-      <window_info id="leetcode" order="7" side_tool="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.22423398" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="6" sideWeight="0.92719483" side_tool="true" weight="0.15281501" />
@@ -696,11 +700,11 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" weight="0.3189415" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.3259053" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32976446" />
+      <window_info id="leetcode" order="7" side_tool="true" weight="0.3297587" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.06406685" visible="true" weight="0.2774799" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3259053" />
@@ -711,6 +715,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="5" sideWeight="0.9359332" side_tool="true" weight="0.23324397" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33239436" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41086352" />
     </layout-to-restore>
   </component>
@@ -843,6 +848,12 @@
           <properties />
           <option name="timeStamp" value="183" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem210.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem51.java</url>
           <line>18</line>
@@ -855,7 +866,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="184" />
+      <option name="time" value="186" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -873,27 +884,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/algorithm/sort/bubble/BubbleSortBetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/algorithm/sort/bubble/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/datastruct/queue/MyQuickQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/datastruct/queue/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -1215,13 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem566.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1231,11 +1214,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem215.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="method#findKthLargest#0;class#Problem215#0" />
-          </folding>
+        <state relative-caret-position="2092">
+          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem566.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="210" column="12" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="1095" column="19" selection-start-line="1095" selection-start-column="19" selection-end-line="1095" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem210.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-885">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
