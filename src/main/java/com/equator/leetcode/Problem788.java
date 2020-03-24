@@ -10,7 +10,6 @@ public class Problem788 {
         int c = 0;
         for (int i = 1; i <= N; i++) {
             if (judge(i)) {
-                System.out.println(i);
                 c++;
             }
         }
@@ -18,27 +17,23 @@ public class Problem788 {
     }
 
     private boolean judge(int n) {
-        int rn = reserveNum(n);
-        String rotatedNum = "";
-        while (rn > 0) {
-            int r = rotate(rn % 10);
+        int source = n;
+        int len = getNumLength(n);
+        int rotatedNum = 0;
+        while (len > 0) {
+            int r = rotate((int) (n / Math.pow(10, len - 1)));
             if (r == -1) {
                 return false;
             }
-            rotatedNum = rotatedNum + r;
-            rn /= 10;
+            n %= Math.pow(10, len - 1);
+            rotatedNum = rotatedNum * 10 + r;
+            len--;
         }
-        System.out.println("rotatedNum：" + rotatedNum);
-        return !String.valueOf(n).equals(rotatedNum);
+        return rotatedNum != source;
     }
 
-    private int reserveNum(int n) {
-        int reserveNum = 0;
-        while (n > 0) {
-            reserveNum = reserveNum * 10 + n % 10;
-            n /= 10;
-        }
-        return reserveNum;
+    private int getNumLength(int n) {
+        return String.valueOf(n).length();
     }
 
     /**
