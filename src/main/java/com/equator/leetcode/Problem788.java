@@ -65,7 +65,7 @@ public class Problem788 {
         System.out.println("答案：" + new Problem788().rotatedDigits(9));
     }
 
-    // 动态规划（末位以外的数字在计算该数字前肯定计算过，妙！）
+    // 动态规划，或者说是记忆化搜索（末位以外的数字在计算该数字前肯定计算过，妙！）
     public int rotatedDigits(int N) {
         // dp[i]对应有三个值，1是好数，0是普数，-1是坏数
         int[] tmp = {0, 0, 1, -1, -1, 1, 1, -1, 0, 1};
@@ -83,6 +83,7 @@ public class Problem788 {
         dp[0] = dp[1] = dp[8] = 0;
         dp[2] = dp[5] = dp[6] = dp[9] = 1;
         int num = 0;
+        // dp[i % 10]末位，dp[(int) Math.floor(i / 10)]除末位之外的部分
         for (int i = 0; i <= N; i++) {
             if (dp[i % 10] == -1 || dp[(int) Math.floor(i / 10)] == -1) {
                 dp[i] = -1;
