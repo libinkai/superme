@@ -24,8 +24,8 @@
       <file leaf-file-name="Problem788.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem788.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="216">
+              <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
               <folding>
                 <element signature="e#1007#1008#0" expanded="true" />
                 <element signature="e#1045#1046#0" expanded="true" />
@@ -522,7 +522,7 @@
       <workItem from="1584877914189" duration="2596000" />
       <workItem from="1584882550191" duration="5629000" />
       <workItem from="1584920831422" duration="29531000" />
-      <workItem from="1585008210530" duration="10228000" />
+      <workItem from="1585008210530" duration="13196000" />
     </task>
     <servers />
   </component>
@@ -559,7 +559,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="945131000" />
+    <option name="totallyTimeSpent" value="948099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -576,7 +576,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32976446" />
       <window_info id="leetcode" order="7" side_tool="true" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.30501392" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.30501392" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.4247911" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -786,7 +786,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem788.java</url>
-          <line>11</line>
+          <line>12</line>
           <properties />
           <option name="timeStamp" value="191" />
         </line-breakpoint>
@@ -1178,8 +1178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem788.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="216">
+          <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
           <folding>
             <element signature="e#1007#1008#0" expanded="true" />
             <element signature="e#1045#1046#0" expanded="true" />

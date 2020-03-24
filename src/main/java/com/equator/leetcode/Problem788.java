@@ -6,7 +6,8 @@ package com.equator.leetcode;
  **/
 
 public class Problem788 {
-    public int rotatedDigits(int N) {
+    // 暴力法，规规矩矩法
+    public int rotatedDigits0(int N) {
         int c = 0;
         for (int i = 1; i <= N; i++) {
             if (judge(i)) {
@@ -61,6 +62,37 @@ public class Problem788 {
     }
 
     public static void main(String[] args) {
-        System.out.println("答案：" + new Problem788().rotatedDigits(10));
+        System.out.println("答案：" + new Problem788().rotatedDigits(9));
+    }
+
+    // 动态规划（末位以外的数字在计算该数字前肯定计算过，妙！）
+    public int rotatedDigits(int N) {
+        // dp[i]对应有三个值，1是好数，0是普数，-1是坏数
+        int[] tmp = {0, 0, 1, -1, -1, 1, 1, -1, 0, 1};
+        if (N < 10) {
+            int sum = 0;
+            for (int i = 0; i <= N; i++) {
+                if (tmp[i] == 1) {
+                    sum++;
+                }
+            }
+            return sum;
+        }
+        int[] dp = new int[N + 1];
+        dp[3] = dp[4] = dp[7] = -1;
+        dp[0] = dp[1] = dp[8] = 0;
+        dp[2] = dp[5] = dp[6] = dp[9] = 1;
+        int num = 0;
+        for (int i = 0; i <= N; i++) {
+            if (dp[i % 10] == -1 || dp[(int) Math.floor(i / 10)] == -1) {
+                dp[i] = -1;
+            } else {
+                dp[i] = dp[i % 10] | dp[(int) Math.floor(i / 10)];
+            }
+            if (dp[i] == 1) {
+                num++;
+            }
+        }
+        return num;
     }
 }
