@@ -21,14 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Problem13.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem13.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+            <state relative-caret-position="176">
+              <caret line="11" selection-start-line="11" selection-end-line="19" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem13Better.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem13Better.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -77,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/queue/MyArrayQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/queue/MyQuickList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/queue/MyQuickQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/queue/Demo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/queue/MyCycleQueue.java" />
@@ -128,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem788.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem892.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem13.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem13_better.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem13Better.java" />
       </list>
     </option>
   </component>
@@ -152,9 +161,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="172" />
+    <option name="y" value="-17" />
+    <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -247,13 +257,13 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\leetcode" />
-      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\Problem91" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.equator" />
       <recent name="com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\equator\algorithm\sort\heap" />
+      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\leetcode" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.equator.leetcode" />
@@ -262,9 +272,9 @@
       <recent name="com.equator.datastruct.array" />
       <recent name="com.equator.leetcode.sword" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\equator\algorithm\sort\heap" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="X:\IDEAWorkspace\offer\src\main\java\com\leetcode" />
+      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\Problem91" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -519,7 +529,7 @@
       <workItem from="1584882550191" duration="5629000" />
       <workItem from="1584920831422" duration="29531000" />
       <workItem from="1585008210530" duration="13585000" />
-      <workItem from="1585092159872" duration="3309000" />
+      <workItem from="1585092159872" duration="5702000" />
     </task>
     <servers />
   </component>
@@ -556,10 +566,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="951797000" />
+    <option name="totallyTimeSpent" value="954190000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="840" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -817,13 +827,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1160.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem836.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1169,11 +1172,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="19" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem13Better.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="32" />
         </state>
       </provider>
     </entry>
