@@ -24,22 +24,29 @@
       <file leaf-file-name="Problem999.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem999.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
+            <state relative-caret-position="744">
               <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem914.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem914.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem914.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="617">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1134#1135#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem820.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem820.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -88,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Solution695.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/linkedlist/MyGenericLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/queue/LinkedListQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/queue/MyLinkedListQueue.java" />
@@ -139,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem14.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem999.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem914.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem820.java" />
       </list>
     </option>
   </component>
@@ -163,9 +170,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="386" />
-    <option name="y" value="-23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="395" />
+    <option name="y" value="-25" />
     <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
@@ -176,9 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +247,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -533,7 +540,8 @@
       <workItem from="1585008210530" duration="13585000" />
       <workItem from="1585092159872" duration="7823000" />
       <workItem from="1585217774156" duration="1034000" />
-      <workItem from="1585314805225" duration="1603000" />
+      <workItem from="1585314805225" duration="1818000" />
+      <workItem from="1585377594753" duration="3332000" />
     </task>
     <servers />
   </component>
@@ -570,10 +578,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="958948000" />
+    <option name="totallyTimeSpent" value="962495000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -837,20 +845,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1114.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/function/IntConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1182,20 +1176,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem999.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
+        <state relative-caret-position="744">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem914.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="617">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="404" column="18" selection-start-line="404" selection-start-column="18" selection-end-line="404" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem820.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="41" />
         </state>
       </provider>
     </entry>
