@@ -21,44 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Problem999.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem999.java">
+      <file leaf-file-name="Problem1162.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1162.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem914.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem914.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="425">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem820.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem820.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="30" selection-start-line="30" selection-end-line="131" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Trie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Trie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="81" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -107,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/linkedlist/MyGenericLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/queue/LinkedListQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/queue/MyLinkedListQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/stack/MySimpleStack.java" />
@@ -158,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem999.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem914.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem820.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1162.java" />
       </list>
     </option>
   </component>
@@ -183,8 +153,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="395" />
-    <option name="y" value="-25" />
+    <option name="x" value="443" />
+    <option name="y" value="67" />
     <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
@@ -195,6 +165,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,9 +231,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem14">
+  <component name="RunManager" selected="JUnit.Problem1162.test">
     <configuration name="Problem14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.equator.leetcode.Problem14" />
       <module name="offer" />
@@ -344,17 +314,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.exam.Solution1" />
-      <module name="offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.exam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.exam.Test" />
       <module name="offer" />
@@ -368,6 +327,29 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Problem1162.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="offer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.equator.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.equator.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.equator.leetcode.Problem1162" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -408,19 +390,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Problem17_16" />
       <item itemvalue="Application.Problem788" />
       <item itemvalue="Application.Problem14" />
+      <item itemvalue="JUnit.Problem1162.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem1162.test" />
         <item itemvalue="Application.Problem14" />
         <item itemvalue="Application.Problem788" />
         <item itemvalue="Application.Problem17_16" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Solution1" />
       </list>
     </recent_temporary>
   </component>
@@ -553,20 +535,12 @@
       <workItem from="1585092159872" duration="7823000" />
       <workItem from="1585217774156" duration="1034000" />
       <workItem from="1585314805225" duration="1818000" />
-      <workItem from="1585377594753" duration="5167000" />
+      <workItem from="1585377594753" duration="5745000" />
+      <workItem from="1585465616570" duration="2994000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Problem215 - 2020.03.23 at 12h 09m 22s.xml">
-      <configuration name="Problem215" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem215 - 2020.03.23 at 12h 14m 34s.xml">
-      <configuration name="Problem215" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem215_test0 - 2020.03.23 at 12h 14m 45s.xml">
-      <configuration name="Problem215.test0" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Problem215_test0 - 2020.03.23 at 12h 15m 04s.xml">
       <configuration name="Problem215.test0" configurationId="JUnit" />
     </history-entry>
@@ -588,9 +562,18 @@
     <history-entry file="Problem215_test0 - 2020.03.23 at 12h 18m 46s.xml">
       <configuration name="Problem215.test0" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Problem1162_test - 2020.03.29 at 15h 18m 34s.xml">
+      <configuration name="Problem1162.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem1162_test - 2020.03.29 at 15h 19m 24s.xml">
+      <configuration name="Problem1162.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem1162_test - 2020.03.29 at 15h 19m 30s.xml">
+      <configuration name="Problem1162.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="964330000" />
+    <option name="totallyTimeSpent" value="967902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -598,6 +581,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3259053" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -619,7 +603,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.92719483" side_tool="true" weight="0.15281501" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41086352" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3259053" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33239436" />
@@ -857,13 +840,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1116.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1195.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1188,7 +1164,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem914.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
+        <state relative-caret-position="1248">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1205,15 +1181,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="81" selection-end-column="1" />
+        <state relative-caret-position="168">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="81" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem820.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="30" selection-start-line="30" selection-end-line="131" selection-end-column="5" />
+        <state relative-caret-position="257">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1162.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
