@@ -32,7 +32,7 @@ public class QuickSort implements Sortable {
     }
 
     public int partition(int[] array, int low, int high) {
-        // 取数组第一个数作为比较的键值
+        // 取数组第一个数作为比较的键值，两个while循环的顺序不能改变：先右后左
         int key = array[low];
         while (low < high) {
             // 找到一个比键值小的数据，并交换到低端

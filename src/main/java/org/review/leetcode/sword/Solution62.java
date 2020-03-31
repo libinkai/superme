@@ -82,15 +82,8 @@ public class Solution62 {
         return cur.val;
     }
 
-    public int lastRemaining(int n, int m) {
-        int[] nums = new int[n];
-        for (int i = 0; i < n; i++) {
-            nums[i] = i;
-        }
-    }
-
 
     public static void main(String[] args) {
-        System.out.println(new Solution62().lastRemaining(10, 9));
+        System.out.println(new Solution62().lastRemaining1(10, 9));
     }
 }
