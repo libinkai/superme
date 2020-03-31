@@ -69,7 +69,9 @@ public class Problem912 {
             min = Math.min(min, num);
         }
         int len = max - min;
+        // 统计数组长度是len+1哦
         int[] flag = new int[len + 1];
+        // 以min作为偏移量
         for (int num : nums) {
             flag[num - min]++;
         }
