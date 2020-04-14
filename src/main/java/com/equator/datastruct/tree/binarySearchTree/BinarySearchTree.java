@@ -68,7 +68,11 @@ public class BinarySearchTree<E extends Comparable<E>> {
      * }
      **/
 
-    // 添加逻辑优化
+    /**
+     * 添加元素（逻辑优化）
+     *
+     * @param e
+     */
     public void add(E e) {
         add(root, e);
     }
@@ -90,4 +94,75 @@ public class BinarySearchTree<E extends Comparable<E>> {
         return node;
     }
 
+    /**
+     * 查询
+     *
+     * @param e
+     * @return
+     */
+    public boolean contains(E e) {
+        return contains(root, e);
+    }
+
+    private boolean contains(Node node, E e) {
+        if (node == null) {
+            return false;
+        }
+        if (e.compareTo(node.e) < 0) {
+            return contains(node.left, e);
+        } else if (e.compareTo(node.e) > 0) {
+            return contains(node.right, e);
+        } else {
+            return true;
+        }
+    }
+
+    /**
+     * 前序遍历
+     */
+    public void preOrder() {
+        preOrder(root);
+    }
+
+    private void preOrder(Node node) {
+        if (node == null) {
+            return;
+        }
+        System.out.println(node.e);
+        preOrder(node.left);
+        preOrder(node.right);
+    }
+
+
+    /**
+     * 中序遍历
+     */
+    public void inOrder() {
+        inOrder(root);
+    }
+
+    private void inOrder(Node node) {
+        if (node == null) {
+            return;
+        }
+        inOrder(node.left);
+        System.out.println(node.e);
+        inOrder(node.right);
+    }
+
+    /**
+     * 后序遍历
+     */
+    public void postOrder() {
+        postOrder(root);
+    }
+
+    private void postOrder(Node node) {
+        if (node == null) {
+            return;
+        }
+        postOrder(node.left);
+        postOrder(node.right);
+        System.out.println(node.e);
+    }
 }
