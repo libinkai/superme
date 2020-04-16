@@ -165,4 +165,83 @@ public class BinarySearchTree<E extends Comparable<E>> {
         postOrder(node.right);
         System.out.println(node.e);
     }
+
+    /**
+     * 查找BST的最小元素
+     *
+     * @return
+     */
+    public E minimum() {
+        if (size == 0) {
+            return null;
+        }
+        return minimum(root).e;
+    }
+
+    /**
+     * 返回已node为根的BST的最小值所在的节点
+     *
+     * @param node
+     * @return
+     */
+    private Node minimum(Node node) {
+        if (node.left == null) {
+            return node;
+        }
+        return minimum(node.left);
+    }
+
+    /**
+     * 删除最小值所在的节点
+     *
+     * @return
+     */
+    public E removeMin() {
+        E min = minimum();
+        root = removeMin(root);
+        return min;
+    }
+
+    /**
+     * 删除以node为根的BST中的最小节点
+     * 返回删除节点之后的BST的根
+     *
+     * @param node
+     * @return
+     */
+    private Node removeMin(Node node) {
+        if (node.left == null) {
+            Node rightNode = node.right;
+            node.right = null;
+            size--;
+            return rightNode;
+        }
+        node.left = removeMin(node.left);
+        return node;
+    }
+
+    /**
+     * 查找BST的最大元素
+     *
+     * @return
+     */
+    public E maximum() {
+        if (size == 0) {
+            return null;
+        }
+        return maximum(root).e;
+    }
+
+    /**
+     * 返回已node为根的BST的最大值所在的节点
+     *
+     * @param node
+     * @return
+     */
+    private Node maximum(Node node) {
+        if (node.right == null) {
+            return node;
+        }
+        return maximum(node.right);
+    }
 }
