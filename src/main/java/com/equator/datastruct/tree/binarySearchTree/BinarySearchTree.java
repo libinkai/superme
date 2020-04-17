@@ -1,5 +1,8 @@
 package com.equator.datastruct.tree.binarySearchTree;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 /**
  * @Author: Equator
  * @Date: 2020/4/12 20:14
@@ -72,7 +75,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
      * @param e
      */
     public void add(E e) {
-        add(root, e);
+        root = add(root, e);
     }
 
     private Node add(Node node, E e) {
@@ -164,6 +167,21 @@ public class BinarySearchTree<E extends Comparable<E>> {
         System.out.println(node.e);
     }
 
+    public void levelOrder() {
+        Deque<Node> queue = new LinkedList<>();
+        queue.addLast(root);
+        while (!queue.isEmpty()) {
+            Node node = queue.pollFirst();
+            System.out.println(node.e);
+            if (node.left != null) {
+                queue.addLast(node.left);
+            }
+            if (node.right != null) {
+                queue.addLast(node.right);
+            }
+        }
+    }
+
     /**
      * 查找BST的最小元素
      *
@@ -249,7 +267,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
      * @return
      */
     public E removeMax() {
-        E max = minimum();
+        E max = maximum();
         root = removeMax(root);
         return max;
     }
@@ -268,7 +286,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
             size--;
             return leftNode;
         }
-        node.right = removeMin(node.right);
+        node.right = removeMax(node.right);
         return node;
     }
 
