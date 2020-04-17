@@ -35,11 +35,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution55.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="数据结构.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/note/数据结构.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="240">
+                <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/datastruct/tree/binarySearchTree/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="318" column="25" selection-start-line="318" selection-start-column="25" selection-end-line="318" selection-end-column="25" />
+              <folding>
+                <element signature="e#5215#5216#0" expanded="true" />
+                <element signature="e#5232#5233#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution55.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round2/Solution55.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="377">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -142,12 +167,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/util/ArrayPrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem542.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem542Better.java" />
-        <option value="$PROJECT_DIR$/note/数据结构.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem56.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/tree/binarySearchTree/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/leetcode1/Problem13.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Problem9.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/round2/Solution55.java" />
+        <option value="$PROJECT_DIR$/note/数据结构.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/datastruct/tree/binarySearchTree/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -172,10 +197,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="620" />
-    <option name="y" value="-30" />
-    <option name="width" value="979" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -241,7 +265,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="equator" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="offer" type="b2602c69:ProjectViewProjectNode" />
@@ -251,8 +275,20 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="equator" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="round2" type="462c0819:PsiDirectoryNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="equator" type="462c0819:PsiDirectoryNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="binarySearchTree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -626,47 +662,47 @@
       <workItem from="1586859059017" duration="620000" />
       <workItem from="1586908378547" duration="16779000" />
       <workItem from="1586994132026" duration="10780000" />
-      <workItem from="1587089567435" duration="2461000" />
+      <workItem from="1587089567435" duration="8816000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Problem542 - 2020.04.15 at 11h 42m 12s.xml">
-      <configuration name="Problem542" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem542 - 2020.04.15 at 11h 46m 29s.xml">
-      <configuration name="Problem542" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem542 - 2020.04.15 at 11h 46m 44s.xml">
-      <configuration name="Problem542" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem542 - 2020.04.15 at 11h 47m 01s.xml">
-      <configuration name="Problem542" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem542_main - 2020.04.15 at 11h 48m 39s.xml">
-      <configuration name="Problem542.main" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem542_main - 2020.04.15 at 11h 48m 48s.xml">
-      <configuration name="Problem542.main" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem542Better - 2020.04.15 at 12h 52m 12s.xml">
-      <configuration name="Problem542Better" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem542Better - 2020.04.15 at 12h 53m 27s.xml">
-      <configuration name="Problem542Better" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Problem542Better - 2020.04.15 at 12h 55m 02s.xml">
       <configuration name="Problem542Better" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Problem542Better - 2020.04.15 at 12h 56m 03s.xml">
       <configuration name="Problem542Better" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Solution55_test - 2020.04.17 at 10h 58m 50s.xml">
+      <configuration name="Solution55.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution55_testCanJump - 2020.04.17 at 10h 59m 49s.xml">
+      <configuration name="Solution55.testCanJump" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution55 - 2020.04.17 at 11h 00m 51s.xml">
+      <configuration name="Solution55" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution55 - 2020.04.17 at 11h 01m 10s.xml">
+      <configuration name="Solution55" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution55_testCanJump - 2020.04.17 at 11h 01m 21s.xml">
+      <configuration name="Solution55.testCanJump" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution55_testCanNotJump - 2020.04.17 at 11h 01m 26s.xml">
+      <configuration name="Solution55.testCanNotJump" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution55 - 2020.04.17 at 11h 01m 31s.xml">
+      <configuration name="Solution55" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution55_testCanJump - 2020.04.17 at 11h 01m 38s.xml">
+      <configuration name="Solution55.testCanJump" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1079283000" />
+    <option name="totallyTimeSpent" value="1085638000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="762" y="0" width="781" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -690,7 +726,7 @@
       <window_info id="leetcode" order="7" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.3955432" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.45543176" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.06406685" weight="0.2613941" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.06406685" weight="0.43015215" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33147633" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.92719483" side_tool="true" weight="0.15281501" />
@@ -718,7 +754,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" weight="0.34122562" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.32033426" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.06406685" visible="true" weight="0.2613941" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.06406685" visible="true" weight="0.43015215" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32976446" />
       <window_info id="leetcode" order="7" side_tool="true" weight="0.3297587" />
@@ -940,11 +976,19 @@
           </properties>
           <option name="timeStamp" value="210" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round2/Solution55.java</url>
+          <line>10</line>
+          <properties class="com.equator.leetcode.round2.Solution55" method="canJump">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="212" />
+      <option name="time" value="213" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -957,13 +1001,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Problem1162.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1180,14 +1217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note/leetcode题解.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Problem445.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -1235,16 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note/数据结构.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1416">
-            <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Problem56.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1254,13 +1273,6 @@
             <element signature="e#342#343#0" expanded="true" />
             <element signature="e#392#393#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/datastruct/tree/binarySearchTree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="206" column="21" selection-start-line="206" selection-start-column="21" selection-end-line="206" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1327,10 +1339,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/note/leetcode题解.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round2/Solution55.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="377">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/datastruct/queue/MyArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/数据结构.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="240">
+            <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/datastruct/tree/binarySearchTree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="318" column="25" selection-start-line="318" selection-start-column="25" selection-end-line="318" selection-end-column="25" />
+          <folding>
+            <element signature="e#5215#5216#0" expanded="true" />
+            <element signature="e#5232#5233#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

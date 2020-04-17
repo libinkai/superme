@@ -1,8 +1,6 @@
 package com.equator.datastruct.tree.binarySearchTree;
 
 /**
- * 该BST默认不包含重复元素，如果想要包含重复元素，需要包含重复元素的话，需要修改BST的定义：左子树小于等于根节点或者右子树大于等于根节点
- *
  * @Author: Equator
  * @Date: 2020/4/12 20:14
  **/
@@ -243,5 +241,84 @@ public class BinarySearchTree<E extends Comparable<E>> {
             return node;
         }
         return maximum(node.right);
+    }
+
+    /**
+     * 删除最大值所在的节点
+     *
+     * @return
+     */
+    public E removeMax() {
+        E max = minimum();
+        root = removeMax(root);
+        return max;
+    }
+
+    /**
+     * 删除以node为根的BST中的最大节点
+     * 返回删除节点之后的BST的根
+     *
+     * @param node
+     * @return
+     */
+    private Node removeMax(Node node) {
+        if (node.right == null) {
+            Node leftNode = node.left;
+            node.left = null;
+            size--;
+            return leftNode;
+        }
+        node.right = removeMin(node.right);
+        return node;
+    }
+
+    /**
+     * 从二分搜索树中删除元素为e的节点
+     *
+     * @param e
+     */
+    public void remove(E e) {
+        remove(root, e);
+    }
+
+    /**
+     * 删除以node为根的二分搜索树中值为e的节点，返回删除节点之后的BST的根
+     *
+     * @param node
+     * @param e
+     * @return
+     */
+    private Node remove(Node node, E e) {
+        if (node == null) {
+            return null;
+        }
+        if (e.compareTo(node.e) < 0) {
+            node.left = remove(node.left, e);
+            return node;
+        } else if (e.compareTo(node.e) > 0) {
+            node.right = remove(node.right, e);
+            return node;
+        } else {
+            // equals
+            if (node.left == null) {
+                Node rightNode = node.right;
+                node.right = null;
+                size--;
+                return rightNode;
+            } else if (node.right == null) {
+                Node leftNode = node.left;
+                node.left = null;
+                size--;
+                return leftNode;
+            } else {
+                Node successor = minimum(node.right);
+                successor.right = removeMin(node.right);
+                // removeMin内部size--，但是那个节点并没有被删除，是successor，故这里应该有size++
+                successor.left = node.left;
+                node.left = node.right = null;
+                // size--
+                return successor;
+            }
+        }
     }
 }
