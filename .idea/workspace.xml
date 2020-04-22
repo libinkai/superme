@@ -66,10 +66,10 @@
         </entry>
       </file>
       <file leaf-file-name="Solution199.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Solution199.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Solution199.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="48" selection-start-line="48" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="401">
+              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
@@ -141,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem788.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem892.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem13.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem13_better.java" />
@@ -192,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/round2/Solution200.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Solution1248.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Solution199.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Solution199.java" />
       </list>
     </option>
   </component>
@@ -675,7 +675,7 @@
       <workItem from="1587266836186" duration="5776000" />
       <workItem from="1587381709145" duration="2079000" />
       <workItem from="1587453681860" duration="5768000" />
-      <workItem from="1587522549573" duration="1526000" />
+      <workItem from="1587522549573" duration="2004000" />
     </task>
     <servers />
   </component>
@@ -712,7 +712,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1109473000" />
+    <option name="totallyTimeSpent" value="1109951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -760,7 +760,7 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="6" sideWeight="0.92719483" side_tool="true" weight="0.15281501" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.454039" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" visible="true" weight="0.454039" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -772,7 +772,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32976446" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33147633" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.06406685" visible="true" weight="0.25737265" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.06406685" visible="true" weight="0.25737265" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3259053" />
       <window_info anchor="right" id="Database" order="7" weight="0.32918397" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1365,10 +1365,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/Solution199.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Solution199.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="48" selection-start-line="48" selection-end-line="63" selection-end-column="5" />
+        <state relative-caret-position="401">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />

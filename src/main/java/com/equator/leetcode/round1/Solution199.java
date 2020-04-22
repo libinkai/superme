@@ -1,4 +1,4 @@
-package com.equator.leetcode;
+package com.equator.leetcode.round1;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -34,7 +34,7 @@ public class Solution199 {
                 if (i == len - 1) {
                     res.add(node.val);
                 }
-                System.out.println(node.val);
+                // 控制台输出还是很耗时的 System.out.println(node.val);
                 if (node.left != null) {
                     queue.addLast(node.left);
                 }
@@ -47,7 +47,7 @@ public class Solution199 {
     }
 
     // 先遍历右子树再遍历左子树
-    public List<Integer> rightSideView(TreeNode root) {
+    public List<Integer> rightSideView1(TreeNode root) {
         List<Integer> res = new LinkedList<>();
         travel(root, 0, res);
         return res;
