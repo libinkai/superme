@@ -24,14 +24,11 @@ public class Solution51 {
     }
 
     public int reversePairs1(int[] nums) {
-        if (nums.length == 0) {
-            return 0;
-        }
         return count(nums, 0, nums.length - 1);
     }
 
     private int count(int[] nums, int start, int end) {
-        if (start == end) {
+        if (start >= end) {
             return 0;
         }
         int mid = (start + end) / 2;
@@ -39,7 +36,9 @@ public class Solution51 {
         int[] temp = new int[end - start + 1];
         int i = start, j = mid + 1, k = 0;
         while (i <= mid && j <= end) {
-            count += nums[i] <= nums[j] ? j - (mid + 1) : 0;
+            if (nums[i] <= nums[j]) {
+                count += j - (mid + 1);
+            }
             temp[k++] = nums[i] <= nums[j] ? nums[i++] : nums[j++];
         }
         while (i <= mid) {
@@ -56,8 +55,7 @@ public class Solution51 {
 
     @Test
     public void test() {
-//        int[] nums = {7, 5, 6, 4};
-        int[] nums = {3, 2, 5, 6};
+        int[] nums = {7, 5, 6, 4};
         System.out.println(new Solution51().reversePairs1(nums));
     }
 }
