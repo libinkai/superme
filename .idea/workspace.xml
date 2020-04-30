@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/note/数据结构.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="480">
+              <first_editor relative-caret-position="2136">
                 <caret line="89" selection-start-line="89" selection-end-line="89" />
               </first_editor>
               <second_editor />
@@ -50,11 +50,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinarySearchDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearchDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/algorithm/searching/BinarySearchDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+            <state relative-caret-position="720">
+              <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem202.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Problem202.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem202Better.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Problem202Better.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -117,8 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/algorithm/sort/quick/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/sword/Problem912.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem1111.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem289.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/Problem8.java" />
@@ -168,6 +187,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/MountainArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Problem1095.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equator/algorithm/searching/BinarySearchDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Problem202.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Problem202Better.java" />
       </list>
     </option>
   </component>
@@ -192,10 +213,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,6 +226,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,7 +283,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="equator" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="offer" type="b2602c69:ProjectViewProjectNode" />
@@ -269,15 +293,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="equator" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="searching" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="round1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -295,13 +317,15 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\leetcode" />
-      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\Problem91" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.equator" />
       <recent name="com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\equator\algorithm\searching" />
+      <recent name="X:\IDEAWorkspace\offer\note\images" />
+      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\equator\algorithm\sort\heap" />
+      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\leetcode" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.equator.leetcode.round1" />
@@ -310,11 +334,9 @@
       <recent name="com.equator.datastruct.linkedlist" />
       <recent name="com.equator.datastruct.array" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\equator\algorithm\searching" />
-      <recent name="X:\IDEAWorkspace\offer\note\images" />
-      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\equator\algorithm\sort\heap" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="X:\IDEAWorkspace\offer\src\main\java\com\leetcode" />
+      <recent name="X:\IDEAWorkspace\offer\src\main\java\com\Problem91" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchDemo.test1">
+  <component name="RunManager" selected="JUnit.Problem202.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -402,7 +424,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Problem33" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem202.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="offer" />
       <extension name="coverage">
         <pattern>
@@ -413,9 +435,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.equator.leetcode.round1" />
-      <option name="MAIN_CLASS_NAME" value="com.equator.leetcode.round1.Problem33" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.equator.leetcode.round1.Problem202" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -487,19 +509,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Problem33" />
       <item itemvalue="JUnit.Solution56_1.test" />
       <item itemvalue="JUnit.BinarySearchDemo.test" />
       <item itemvalue="JUnit.BinarySearchDemo" />
       <item itemvalue="JUnit.BinarySearchDemo.test1" />
+      <item itemvalue="JUnit.Problem202.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem202.test" />
         <item itemvalue="JUnit.BinarySearchDemo.test1" />
         <item itemvalue="JUnit.BinarySearchDemo" />
         <item itemvalue="JUnit.BinarySearchDemo.test" />
         <item itemvalue="JUnit.Solution56_1.test" />
-        <item itemvalue="JUnit.Problem33" />
       </list>
     </recent_temporary>
   </component>
@@ -672,47 +694,48 @@
       <workItem from="1587944060869" duration="1761000" />
       <workItem from="1587978150346" duration="4361000" />
       <workItem from="1588032518767" duration="2527000" />
-      <workItem from="1588128011168" duration="13983000" />
+      <workItem from="1588128011168" duration="14985000" />
+      <workItem from="1588205169057" duration="2179000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchDemo_test - 2020.04.29 at 15h 14m 03s.xml">
-      <configuration name="BinarySearchDemo.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchDemo_test - 2020.04.29 at 15h 14m 12s.xml">
-      <configuration name="BinarySearchDemo.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchDemo_test - 2020.04.29 at 15h 17m 57s.xml">
-      <configuration name="BinarySearchDemo.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchDemo_test - 2020.04.29 at 15h 18m 27s.xml">
-      <configuration name="BinarySearchDemo.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchDemo_test - 2020.04.29 at 15h 18m 38s.xml">
-      <configuration name="BinarySearchDemo.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchDemo_test - 2020.04.29 at 15h 27m 03s.xml">
-      <configuration name="BinarySearchDemo.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchDemo_test - 2020.04.29 at 16h 38m 22s.xml">
-      <configuration name="BinarySearchDemo.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchDemo_test - 2020.04.29 at 16h 46m 51s.xml">
-      <configuration name="BinarySearchDemo.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchDemo - 2020.04.29 at 16h 46m 58s.xml">
       <configuration name="BinarySearchDemo" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BinarySearchDemo_test1 - 2020.04.29 at 17h 17m 37s.xml">
       <configuration name="BinarySearchDemo.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BinarySearchDemo_test1 - 2020.04.29 at 17h 28m 40s.xml">
+      <configuration name="BinarySearchDemo.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchDemo_test1 - 2020.04.29 at 17h 29m 06s.xml">
+      <configuration name="BinarySearchDemo.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem202_test - 2020.04.30 at 08h 15m 34s.xml">
+      <configuration name="Problem202.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem202_test - 2020.04.30 at 08h 18m 53s.xml">
+      <configuration name="Problem202.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem202_test - 2020.04.30 at 08h 19m 10s.xml">
+      <configuration name="Problem202.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem202_test - 2020.04.30 at 08h 25m 22s.xml">
+      <configuration name="Problem202.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem202_test - 2020.04.30 at 08h 25m 37s.xml">
+      <configuration name="Problem202.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem202_test - 2020.04.30 at 08h 26m 09s.xml">
+      <configuration name="Problem202.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1154365000" />
+    <option name="totallyTimeSpent" value="1157546000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="782" height="848" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -726,7 +749,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32976446" />
       <window_info id="leetcode" order="7" side_tool="true" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.34679666" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.4707521" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.454039" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -752,7 +775,7 @@
       <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.5724234" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.4707521" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
       <window_info id="UI Designer" order="4" />
@@ -1017,12 +1040,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note/images/遍历.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/util/ArrayPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -1347,7 +1364,7 @@
     <entry file="file://$PROJECT_DIR$/note/数据结构.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="480">
+          <first_editor relative-caret-position="2136">
             <caret line="89" selection-start-line="89" selection-end-line="89" />
           </first_editor>
           <second_editor />
@@ -1359,8 +1376,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/algorithm/searching/BinarySearchDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        <state relative-caret-position="720">
+          <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Problem202.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equator/leetcode/round1/Problem202Better.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
