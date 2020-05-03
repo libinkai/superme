@@ -37,9 +37,10 @@ public class Solution3 {
 
     @Test
     public void test() {
-        System.out.println(lengthOfLongestSubstringError("abcabcbb"));
-        System.out.println(lengthOfLongestSubstringError("bbbbb"));
-        System.out.println(lengthOfLongestSubstringError("pwwkew"));
+        System.out.println(lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(lengthOfLongestSubstring("bbbbb"));
+        System.out.println(lengthOfLongestSubstring("pwwkew"));
+        System.out.println(lengthOfLongestSubstring("bbabc"));
     }
 
     public int lengthOfLongestSubstring(String s) {
@@ -47,7 +48,7 @@ public class Solution3 {
         Map<Character, Integer> map = new HashMap<>();
         char[] chars = s.toCharArray();
         for (int i = 0; i < chars.length; i++) {
-            // 字符c在字典中 且 上次出现的下标大于当前长度的起始下标
+            // 字符c在字典中 且上次出现的下标大于当前长度的起始下标（不然不受影响）
             if (map.containsKey(chars[i]) && map.get(chars[i]) > start) {
                 start = map.get(chars[i]);
             } else {
