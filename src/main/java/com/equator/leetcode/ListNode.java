@@ -1,7 +1,6 @@
 package com.equator.leetcode;
 
 import org.junit.Test;
-
 import java.util.List;
 
 /**
