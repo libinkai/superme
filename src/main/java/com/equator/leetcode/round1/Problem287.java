@@ -1,5 +1,7 @@
 package com.equator.leetcode.round1;
 
+import org.junit.Test;
+
 /**
  * 二分法 抽屉原理
  *
@@ -27,5 +29,11 @@ public class Problem287 {
             }
         }
         return left;
+    }
+
+    @Test
+    public void test1() {
+        int[] nums = {1, 3, 4, 2, 2};
+        System.out.println(findDuplicate(nums));
     }
 }
