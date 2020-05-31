@@ -11,7 +11,7 @@ import java.util.Map;
  * @Date: 2020/5/25 10:18
  **/
 
-public class Problem146 {
+public class Solution146 {
     class LRUCache {
         class Node {
             int key, val;

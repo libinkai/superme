@@ -10,7 +10,7 @@ import java.util.Set;
  * @Date: 2020/4/19 11:36
  **/
 
-public class Solution466 {
+public class Problem466 {
     public int getMaxRepetitions(String s1, int n1, String s2, int n2) {
         if ("".equals(s1) || n1 == 0) {
             return 0;

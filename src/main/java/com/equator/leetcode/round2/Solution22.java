@@ -8,7 +8,7 @@ import java.util.List;
  * @Date: 2020/4/9 20:18
  **/
 
-public class Problem22 {
+public class Solution22 {
     List<String> res = new LinkedList<>();
 
     // 如果是这种二分选择的一般可以暴力搜索

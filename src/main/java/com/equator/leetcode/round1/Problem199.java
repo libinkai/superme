@@ -9,7 +9,7 @@ import java.util.List;
  * @Date: 2020/4/22 10:42
  **/
 
-public class Solution199 {
+public class Problem199 {
     public class TreeNode {
         int val;
         TreeNode left;

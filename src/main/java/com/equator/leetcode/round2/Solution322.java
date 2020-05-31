@@ -5,7 +5,7 @@ package com.equator.leetcode.round2;
  * @Date: 2020/3/8 22:28
  **/
 
-public class Problem322 {
+public class Solution322 {
     public int coinChange(int[] coins, int amount) {
         int[] dp = new int[amount + 1];
         dp[0] = 0;
@@ -25,6 +25,6 @@ public class Problem322 {
 
     public static void main(String[] args) {
         int[] coins = {2};
-        System.out.println(new Problem322().coinChange(coins,3));
+        System.out.println(new Solution322().coinChange(coins,3));
     }
 }

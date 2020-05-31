@@ -5,7 +5,7 @@ package com.equator.leetcode.round1;
  * @Date: 2020/3/15 9:38
  **/
 
-public class Solution695 {
+public class Problem695 {
     int[][] vector = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
     int[][] grid;
     int row, col;
@@ -45,6 +45,6 @@ public class Solution695 {
     public static void main(String[] args) {
         // int[][] grid = {{1, 1, 0, 0, 0}};
         int[][] grid = {{1, 1, 0, 0, 0}, {1, 1, 0, 0, 0}, {0, 0, 0, 1, 1}, {0, 0, 0, 1, 1}};
-        System.out.println(new Solution695().maxAreaOfIsland(grid));
+        System.out.println(new Problem695().maxAreaOfIsland(grid));
     }
 }

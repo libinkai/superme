@@ -10,7 +10,7 @@ import java.util.Map;
  * @Date: 2020/4/21 15:55
  **/
 
-public class Solution1248 {
+public class Problem1248 {
     /**
      * 假设当前遍历到i,前缀和sum：
      * sum=nums[0]+nums[1]+...+nums[j]+nums[j+1]+...+nums[i]

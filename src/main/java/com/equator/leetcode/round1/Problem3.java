@@ -10,7 +10,7 @@ import java.util.Map;
  * @Date: 2020/5/2 7:51
  **/
 
-public class Solution3 {
+public class Problem3 {
     // bbabc
     public int lengthOfLongestSubstringError(String s) {
         if ("".equals(s)) {

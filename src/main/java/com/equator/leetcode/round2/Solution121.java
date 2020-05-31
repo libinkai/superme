@@ -5,7 +5,7 @@ package com.equator.leetcode.round2;
  * @Date: 2020/3/9 10:11
  **/
 
-public class Problem121 {
+public class Solution121 {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length == 0) {
             return 0;
